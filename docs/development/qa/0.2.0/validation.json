@@ -1,0 +1,59 @@
+{
+  "recordedAt": "2026-10-01T10:47:43.562Z",
+  "version": {
+    "version": "0.2.0",
+    "status": "unreleased"
+  },
+  "scope": "Version metadata and display only; original browser/database flow evidence reused",
+  "applicationBuildId": "yzDETq33eHpmYxoKWC2Dr",
+  "baselineManifest": "../../../technical/qa/validation-manifest.json",
+  "changedBaselineFiles": [
+    "VERSION.json",
+    "package-lock.json",
+    "package.json"
+  ],
+  "otherBaselineFilesUnchanged": true,
+  "prototype": {
+    "before": "236fa460bc88bfac4010d2290b937191099b4d7c1506701883d8d64386d000a5",
+    "after": "324c7a8aeac3adf0b00fad58e5085127e6a6d9a30b7114442ddf3141fa8fe3bd",
+    "change": "Generated badge version text only; reversing it reproduces the prior hash"
+  },
+  "screenshots": {
+    "app-desktop.png": "471c5949058719dc75a6a8442380827e41a8575d4515cd0409254d700dd44356",
+    "app-mobile.png": "781fbfffde4ca5b5432dfd9eab5be90dc818a330719e29abc4d7b861f33a9869",
+    "prototype-desktop.png": "4895cbd392875a4d4eb34e9d8e4fed12db822a7d4af9d01c7b96d10c7b2eb19d",
+    "prototype-mobile.png": "b3799337111fb0e52f0691bf078933a3e8c4ff1b7f99de3a26509da3358a1bed"
+  },
+  "checks": {
+    "version": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "nonDatabaseTests": 3,
+    "fullDatabaseTests": "reused; not rerun and no reseeding",
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "applicationVersion": "v0.2.0 ? unreleased",
+    "prototypeVersion": "v0.2.0 ? Unreleased",
+    "horizontalOverflow": false,
+    "consoleWarningsOrErrors": []
+  },
+  "gitIndexSha256": "aec821f4871b0387ece64633ad352690a7d6efa7f12f8d7463923c0c4831946f",
+  "stagingReview": {
+    "fileCount": 90,
+    "textFilesDecoded": 56,
+    "missingPaths": [],
+    "excludedPathsPresent": [],
+    "brokenLinks": [],
+    "trailingWhitespace": [],
+    "credentialPatternFindings": [],
+    "powershellBlocksParsedWithoutExecution": 2,
+    "fileListSha256": "2c47b3262a95d98cb87bc1d73d9f47a55318f0edddbccfcbd026cdf1329953d6",
+    "gitMutationsExecuted": false
+  }
+}

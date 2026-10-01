@@ -1,9 +1,23 @@
 # CeliTrip — Product Requirements Document
 
-**Version:** 0.1
-**Status:** Discovery / Draft
+**Version:** 0.2
+**Status:** Product definition / Draft for review
+**Updated:** 2026-10-01
 **Product:** CeliTrip
 **Working tagline:** לטייל בלי לנחש
+
+This revision incorporates the [Rome discovery](reference-destinations/rome.md), the approved blue visual direction, and the four launch languages: Hebrew, English, French, and Russian. It does not select an application stack.
+
+The August Rome document remains a historical discovery record. Its candidate venue profiles, earlier terminology, and illustrative confidence model are not current publication decisions; this PRD defines the revised product model. The [local prototype](../design/CeliTrip-Design-Flow.html) now demonstrates hotel, hub, evidence and card flows using explicitly illustrative content; see the [current design coverage](INFORMATION_ARCHITECTURE.md). Original venue content remains supplied September prototype data, not a new verification.
+
+Companion specifications:
+
+* [Trust, evidence, and freshness rules](TRUST_RULES.md)
+* [Information architecture and prototype review](INFORMATION_ARCHITECTURE.md)
+* [Development handoff and remaining decisions](DEVELOPMENT_HANDOFF.md)
+* [Technical discovery recommendation for issue #4](../technical/TECHNICAL_DISCOVERY.md)
+
+The owner has accepted the current prototype's visual direction and interaction flows, as recorded in the [validation report](../design/PROTOTYPE_VALIDATION.md). This is separate from the still-pending translation review, approved celiac-card wording, real venue evidence and launch-content readiness. The technical recommendation does not approve provisional trust policies or establish implemented services.
 
 ---
 
@@ -11,7 +25,7 @@
 
 CeliTrip is a travel platform for people who need to manage celiac disease while traveling abroad.
 
-The initial product is designed for Israeli travelers and provides trusted, structured, and current information in Hebrew about traveling safely with celiac disease.
+The initial product is a responsive, mobile-first web application providing structured, source-attributed travel information for people with celiac disease. Hebrew is the primary design and research reference; Hebrew, English, French, and Russian are required at launch.
 
 CeliTrip aims to answer a simple but important question:
 
@@ -52,7 +66,7 @@ For travelers with celiac disease, particularly families traveling with children
 
 # 3. Target Users
 
-CeliTrip initially targets Hebrew-speaking Israeli travelers who need to manage celiac disease abroad.
+CeliTrip initially focuses its research on the needs of Israeli travelers and families while serving Hebrew-, English-, French-, and Russian-speaking travelers at launch.
 
 ## Primary personas
 
@@ -81,11 +95,11 @@ If CeliTrip meets that standard, it should generally also serve independent adul
 
 # 4. Value Proposition
 
-**כל מה שצריך לדעת כדי לטייל בעולם עם צליאק — בעברית, במקום אחד, עם דגש על בטיחות ועדכניות.**
+**מידע מעשי לטיול עם צליאק — במקום אחד, עם מקורות, תאריכים והסבר על מה שעדיין לא ידוע.**
 
 CeliTrip differentiates itself through:
 
-* Hebrew-first travel information
+* Hebrew-first design with four launch languages
 * Celiac-first rather than gluten-free-first thinking
 * Structured safety information
 * Evidence-backed claims
@@ -138,7 +152,7 @@ Preparation procedures change.
 
 Businesses close.
 
-Therefore, safety-related information should include its observation or verification date whenever possible.
+Therefore, each operational or safety-related claim should retain its own source, observation date, and review status. A recent observation about opening hours does not refresh evidence about kitchen practices or accreditation.
 
 ## 6.4 Unknown is acceptable
 
@@ -249,59 +263,44 @@ The traveler can understand:
 
 # 8. Place Safety Model
 
-CeliTrip separates two different concepts:
+CeliTrip separates a facility's reported configuration from the evidence supporting each individual claim. Neither a profile nor a recent source observation is a guarantee of a safe meal.
 
-**Gluten-Free Profile**
-
-and:
-
-**Evidence Level**
-
-They must not be treated as the same thing.
+There is no single place-level Evidence Level. One place can have several observations with different sources, dates, scopes, and unresolved disagreements.
 
 ---
 
-## 8.1 Gluten-Free Profile
+## 8.1 Facility Profile
 
-### Dedicated Gluten Free
+The conceptual profiles are:
 
-The establishment operates entirely or effectively as a dedicated gluten-free environment based on available evidence.
+* **Fully gluten-free facility:** evidence explicitly covers the whole relevant preparation environment.
+* **Separate gluten-free kitchen:** a mixed establishment describes a separate GF kitchen; this does not describe the entire establishment as dedicated GF.
+* **Shared kitchen with stated controls:** specific cross-contact procedures are described in a shared kitchen.
+* **Gluten-free products or options only:** availability is supported, while preparation controls are not established. Packaged retail products and prepared dishes remain distinguishable.
+* **Unknown:** evidence is missing, too old for the claim, too broad for the branch, or unresolved.
 
-### Celiac-Aware Kitchen
+These are product concepts, not a committed database enum. Profiles must be source-attributed and branch-specific. A gluten-free business name, menu, or product range alone cannot establish a preparation profile.
 
-The establishment is not entirely gluten-free, but there is credible information regarding procedures intended to manage cross-contact.
+## 8.2 Categories Are Separate
 
-### Gluten-Free Options
-
-Gluten-free items are available, but there is insufficient evidence regarding cross-contact procedures.
-
-### Unknown
-
-There is insufficient information to determine the establishment's gluten-free profile.
+A place can have several categories, such as bakery, specialist grocery, and café. Categories describe what a traveler can do there; facility profiles describe the reported preparation environment. Neither replaces the other.
 
 ---
 
 # 9. Evidence Model
 
-## Official Accreditation
+Each place can have multiple evidence observations. Each observation supports, contradicts, or leaves unresolved a specific claim.
 
-Evidence originates from a recognized celiac organization or accreditation program.
+Source types include an accreditation authority, regulator, venue, institutional publisher, and traveler report. Source authority must be evaluated against the particular claim; a source's reputation does not make every statement current or branch-specific.
 
-This is the strongest evidence category.
+Examples:
 
-## Venue Confirmed
+* A venue website can support **“the operator states that it has a separate GF kitchen.”**
+* Only evidence from the relevant authority or an independently authenticated current authority-issued record can support a current independently confirmed accreditation label.
+* An old accreditation record stays historical even if the venue website is newly observed.
+* A traveler correction enters editorial review; it does not directly change a public preparation profile.
 
-Current information was obtained directly from the establishment.
-
-This does not equal independent accreditation.
-
-## Community Confirmed
-
-Recent reports from travelers with celiac disease provide relevant information about the establishment.
-
-## Unverified
-
-Information exists, such as a gluten-free menu or public claim, but there is insufficient supporting evidence.
+V1 does not publish numeric safety or confidence scores. [Trust rules](TRUST_RULES.md) propose publication and uncertainty behavior for review; the editorial review intervals remain unapproved proposals.
 
 ---
 
@@ -328,14 +327,18 @@ Safety-related information should retain provenance whenever possible.
 
 Conceptually, an observation should support fields such as:
 
-* source
-* source type
-* observation date
-* verification date
-* confidence
-* notes
+* exact claim and the place, branch, facility, or program it concerns
+* source reference and source type
+* source publication date, when known
+* date CeliTrip observed the source
+* verification method and date, when an actual verification occurred
+* effective and expiry dates, when the source supplies them
+* scope and whether the source supports or contradicts the claim
+* review status, rationale, and editorial history
 
 CeliTrip should be able to explain why information is being displayed.
+
+Unknown dates remain unknown. Opening a webpage today does not prove that an undated operational statement describes today's conditions. A chain-level source must not silently become a branch-level confirmation.
 
 ---
 
@@ -379,17 +382,17 @@ Each supported place contains its known safety and evidence information.
 
 Places can be discovered geographically.
 
-### Safety & Evidence classifications
+### Facility profiles and claim-level evidence
 
-The two classification systems are visible and understandable.
+Source-attributed facility descriptions, unknown information, conflicts, and historical evidence are visible and understandable.
 
 ### Freshness information
 
-Relevant information includes observation or verification dates where available.
+Each relevant claim includes its own observation or verification date and review status. There is no blanket “verified place” date that implies every claim was checked.
 
 ### Celiac Card
 
-Destination-language communication assistance.
+Destination-language communication assistance, with short and detailed versions, large text, an English fallback, visible review metadata, and deliberate saving for offline use. Public cards require language and celiac subject-matter review. Saving a card does not introduce saved places or traveler accounts into V1.
 
 ### Supermarket guide
 
@@ -398,6 +401,16 @@ Country or city-level shopping information.
 ### Administration interface
 
 CeliTrip operators can create, edit, verify, and maintain destination and place information.
+
+### Four-language content
+
+The interface and published destination/place content support Hebrew, English, French, and Russian. Hebrew uses RTL; the other languages use LTR. Source quotations, addresses, and names preserve their original language and direction where appropriate.
+
+Changing interface language preserves the destination, selected place, and current task. Restaurant communication cards use the destination language independently of interface language, with an English fallback and visible language label.
+
+### Corrections
+
+Visitors may suggest a correction without creating an account. Submission enters a private editorial queue and does not publish a review or alter public claims automatically.
 
 ---
 
@@ -411,7 +424,13 @@ The initial data model should be capable of representing:
 * Supermarkets
 * Hotels
 
-The architecture should allow additional travel-related categories later.
+Places may have more than one category. A chain and an individual branch are not interchangeable evidence scopes. The architecture should allow additional travel-related categories later.
+
+## 14.1 Travel Hubs
+
+Travel Hubs include airports, train stations, ferry terminals, and similar transport infrastructure. A hub can contain practical food guidance and links to individual outlets without being classified as a restaurant.
+
+GF food availability at a hub does not establish preparation controls for every outlet. Terminal, public/airside access, and branch-specific guidance should be represented where relevant and supported.
 
 ---
 
@@ -420,7 +439,7 @@ The architecture should allow additional travel-related categories later.
 The following are intentionally excluded from the first version:
 
 * Native mobile applications
-* User accounts
+* Traveler accounts (editorial administrators still require authentication)
 * Social feeds
 * Public comments
 * Public ratings
@@ -453,7 +472,9 @@ A potential city should be evaluated based on:
 * search demand
 * geographic diversity
 
-The five launch destinations have not yet been finalized.
+The five launch destinations have not yet been finalized. Rome is the reference destination and the first proposed implementation/pilot destination. This does not establish Rome as the only public launch city or treat the existing two-place prototype as launch-ready coverage.
+
+The earlier five-city target remains a planning target, subject to evidence quality, complete content, and review in all four launch languages. Barcelona's appearance as “planned” in the prototype is not a published guide or a commitment to a launch date.
 
 ---
 
@@ -486,7 +507,7 @@ Not part of the MVP, but potential future directions include:
 * saved places
 * trip planning
 * community reports
-* structured verification workflows
+* expanded verification workflows beyond the V1 editorial review and publication process
 * restaurant onboarding
 * notifications when saved information changes
 * hotel integrations
@@ -495,7 +516,7 @@ Not part of the MVP, but potential future directions include:
 * eSIM affiliates
 * premium destination guides
 * native applications
-* multilingual expansion
+* additional languages beyond the four launch languages
 
 CeliTrip should be architected so that these possibilities are not unnecessarily blocked, without building them prematurely.
 
@@ -506,18 +527,22 @@ CeliTrip should be architected so that these possibilities are not unnecessarily
 **Name:** CeliTrip
 
 **Hebrew descriptor:**
-המדריך הישראלי לטיולים עם צליאק
+מדריך לטיולים עם צליאק
 
 **Working tagline:**
 לטייל בלי לנחש.
 
 CeliTrip remains a working name until brand, domain, and trademark screening is completed.
 
+The approved visual direction uses blue (`#355CD0`), navy (`#1B2944`), white, and pale blue surfaces, with Heebo for Hebrew and Manrope for the other interface languages. Blue is a brand color, not an accreditation or safety signal.
+
 ---
 
 # 20. Open Questions
 
 The following questions should be resolved during the next discovery phases:
+
+The [issue #4 technical recommendation](../technical/TECHNICAL_DISCOVERY.md) now addresses maps, administration, stack, initial analytics and translation-revision implementation. These recommendations are not implemented services or acceptance of provisional editorial policies. Its milestone plan separates local development from publication and launch gates.
 
 1. Which five cities should launch first?
 2. What minimum evidence is required before a place can appear publicly?
@@ -531,12 +556,18 @@ The following questions should be resolved during the next discovery phases:
 10. What technology stack best supports the MVP?
 11. What analytics events should be captured from launch?
 12. What legal disclaimers are necessary for safety-related information?
+13. What branch-specific evidence is sufficient to apply a facility profile?
+14. Who validates each interface/content language and the destination-language cards?
+15. What evidence and practical-content coverage make a destination ready for launch?
+16. How should the editorial workflow implement the proposed invalidation and re-review of translations affected by a source-claim change?
 
 ---
 
 # 21. Immediate Next Steps
 
-Before implementation:
+Discovery workstreams (local milestone 1 has since been authorized as noted below):
+
+The following are discovery workstreams, not a strict sequence. Product/trust and interaction gaps should be resolved sufficiently to inform technical discovery, as described in the development handoff.
 
 **Phase A — Launch Destination Discovery**
 
@@ -548,10 +579,10 @@ Define publication requirements, freshness rules, conflicts, and evidence expiry
 
 **Phase C — Technical Discovery**
 
-Select architecture, database, mapping solution, CMS/admin approach, hosting, analytics, and deployment strategy.
+The issue #4 recommendation now covers architecture, database, mapping, editorial administration, hosting, analytics and operations. The owner subsequently approved local implementation; milestone 1 delivers a persisted, fictional Rome journey in all four interface languages. See the [implementation validation](../technical/MILESTONE_1_VALIDATION.md). Editorial, maps, cards, cloud operations and real publication remain later milestones requiring their own authorization and readiness gates.
 
 **Phase D — Information Architecture & UX**
 
 Define the main navigation, country pages, city pages, place pages, map experience, Celiac Card, and mobile flows.
 
-Only after these decisions are sufficiently stable should implementation begin.
+These decisions are sufficiently stable for the authorized local Rome slice. Real publication and launch still require the remaining trust, content and operational decisions. The September prototype informs information architecture; it does not replace those gates. See the [development handoff](DEVELOPMENT_HANDOFF.md) for the current evidence, gaps, and next implementation boundary.

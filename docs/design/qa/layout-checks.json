@@ -1,0 +1,1612 @@
+[
+  {
+    "label": "hotels-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hôtels",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotel-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hôtel fictif",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-unknown-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-historical-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-needsReview-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-conflicting-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-chain-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hubs-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "En transit",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hub-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Aéroport fictif",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-a-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Point de vente A — exemple",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-evidence-a-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-b-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Point de vente B — exemple",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-evidence-b-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-short-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-detailed-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-short-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-detailed-fr",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotels-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hotels",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotel-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Illustrative hotel",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hubs-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Travel hubs",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hub-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Illustrative airport",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Outlet B — example",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-unknown-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-historical-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-needsReview-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-conflicting-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-chain-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-short-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-detailed-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-short-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-detailed-en",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotels-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מלונות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotel-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מלון לדוגמה",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hubs-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "בדרך ליעד",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hub-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "נמל תעופה לדוגמה",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "נקודת אוכל ב׳ — דוגמה",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-unknown-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-historical-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-needsReview-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-conflicting-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-chain-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-short-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-detailed-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-short-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-detailed-he",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotels-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Отели",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotel-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Вымышленный отель",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hubs-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "В пути",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hub-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Вымышленный аэропорт",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "outlet-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Точка B — пример",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-unknown-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-historical-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-needsReview-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-conflicting-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "evidence-chain-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-short-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-it-detailed-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-short-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "card-en-detailed-ru",
+    "appOverflow": false,
+    "appWidth": 1128,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "label": "hotels-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מלונות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotel-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מלון לדוגמה",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hubs-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "בדרך ליעד",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hub-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "נמל תעופה לדוגמה",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "outlet-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "נקודת אוכל ב׳ — דוגמה",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-unknown-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-historical-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-needsReview-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-conflicting-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-chain-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "מקורות ועדכניות",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-short-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-detailed-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-short-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-detailed-he",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "rtl",
+    "heading": "כרטיס צליאק",
+    "lang": "he",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotels-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hôtels",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotel-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hôtel fictif",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hubs-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "En transit",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hub-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Aéroport fictif",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "outlet-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Point de vente B — exemple",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-unknown-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-historical-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-needsReview-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-conflicting-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-chain-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources et actualité",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-short-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-detailed-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-short-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-detailed-fr",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Carte cœliaque",
+    "lang": "fr",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotels-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Hotels",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotel-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Illustrative hotel",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hubs-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Travel hubs",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hub-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Illustrative airport",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "outlet-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Outlet B — example",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-unknown-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-historical-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-needsReview-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-conflicting-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-chain-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Sources & freshness",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-short-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-detailed-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-short-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-detailed-en",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Celiac card",
+    "lang": "en",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotels-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Отели",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hotel-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Вымышленный отель",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hubs-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "В пути",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "hub-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Вымышленный аэропорт",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "outlet-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Точка B — пример",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-unknown-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-historical-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-needsReview-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-conflicting-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "evidence-chain-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Источники и актуальность",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-short-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-it-detailed-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-short-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "label": "card-en-detailed-ru",
+    "appOverflow": false,
+    "appWidth": 341,
+    "badImages": 0,
+    "bodyOverflow": false,
+    "dir": "ltr",
+    "heading": "Карточка о целиакии",
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ]
+  }
+]
