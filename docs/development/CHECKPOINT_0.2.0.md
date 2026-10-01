@@ -2,6 +2,8 @@
 
 **Prepared:** 2026-10-01 · **Authoritative version:** 0.2.0 · **Status:** Unreleased
 
+**Historical record:** The owner has since created and pushed checkpoint commit `a5764706afb08e93e350e8774ccf37b352c1e0f4`; local and remote main were verified at that commit during prerelease preparation. Do not rerun the 90-file checkpoint staging/commit commands below. Use the narrow [v0.2.0 release-preparation instructions](../releases/PUBLISH_v0.2.0.md) instead. The earlier preparation-time observations below are retained as history, not current claims about HEAD/index state.
+
 **Standing execution preference:** Codex prepares/validates changes and supplies exact commands; the owner personally executes commits and pushes. Any previous authorization for Codex to create the checkpoint commit is withdrawn. Codex must not stage, commit, push, tag or otherwise mutate Git history or the index. Follow-up inspection confirmed no checkpoint commit or staging had occurred: HEAD is still `00f94b9`, the staged diff is empty, and the index matches the fingerprint below. Nothing was undone or rewritten.
 
 The owner reviewed the running Milestone 1 application and said it "looks good". This records acceptance of the demonstrated local implementation, in addition to the earlier acceptance of the prototype's blue design and interaction flows. Translation review, medical/celiac-card wording, real venue evidence/content, proposed trust policies and public-launch readiness remain pending. No Milestone 2 implementation is included or authorized by this checkpoint.

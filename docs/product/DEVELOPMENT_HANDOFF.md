@@ -1,6 +1,6 @@
 # CeliTrip — Development Handoff
 
-**Updated:** 2026-10-01 · **Status:** Prototype and demonstrated Milestone 1 implementation accepted by owner; 0.2.0 Unreleased checkpoint prepared
+**Updated:** 2026-10-01 · **Status:** Accepted Milestone 1 checkpoint on remote main; v0.2.0 GitHub prerelease prepared, publication unconfirmed
 
 ## 1. Current State
 
@@ -12,7 +12,7 @@ The owner subsequently reviewed the running Milestone 1 application and said it 
 
 The owner subsequently approved the [issue #4 architecture](../technical/TECHNICAL_DISCOVERY.md) for local implementation and explicitly authorized milestone 1. Railway and other cloud services remain unprovisioned recommendations. [PRD v0.2](PRD.md), the proposed [trust rules](TRUST_RULES.md) and [information architecture](INFORMATION_ARCHITECTURE.md) remain the product inputs.
 
-The owner authorized the grouped **0.2.0 Unreleased development checkpoint**, covering the completed prototype, version tooling, product/technical documents and local persisted Rome slice. See the [reviewed staging list and exact commands](../development/CHECKPOINT_0.2.0.md). This is an explicit development-version change, not a release; 0.1.0 was never recorded as released. Only the generated prototype badge changed in checkpoint preparation; its flows are unchanged. The Git index and application data are preserved. The bundle's `START-HERE.txt` branch/PR instructions remain deferred; no staging, commit, tag, push, PR, issue closure, paid provisioning, publication or deployment was performed. Milestone 2 has not begun.
+The owner committed and pushed the grouped **0.2.0 Unreleased development checkpoint** to remote main at `a5764706afb08e93e350e8774ccf37b352c1e0f4`, covering the prototype, version tooling, documents and persisted Rome slice. Local and remote state were verified before prerelease preparation. The [checkpoint record](../development/CHECKPOINT_0.2.0.md) is historical; use the new [release-preparation commands](../releases/PUBLISH_v0.2.0.md) for the narrow follow-up. Version remains 0.2.0, publication status remains Unreleased, and release metadata identifies a prepared prerelease. The dated changelog records preparation, not confirmed publication. No v0.2.0 tag or release existed at inspection. Codex has not staged, committed, tagged, pushed or published these release-preparation changes; the owner performs those actions. Application data and the index are preserved. No deployment, PR, issue closure or Milestone 2 work is included; 0.1.0 was never released.
 
 ## 2. Established Decisions Versus Proposals
 

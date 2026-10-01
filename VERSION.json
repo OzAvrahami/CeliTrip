@@ -1,4 +1,11 @@
 {
   "version": "0.2.0",
-  "status": "unreleased"
+  "status": "unreleased",
+  "release": {
+    "tag": "v0.2.0",
+    "channel": "prerelease",
+    "state": "prepared",
+    "prepared_on": "2026-10-01",
+    "checkpoint_commit": "a5764706afb08e93e350e8774ccf37b352c1e0f4"
+  }
 }

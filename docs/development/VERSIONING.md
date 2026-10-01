@@ -6,6 +6,8 @@ Read [VERSION.json](../../VERSION.json) for the authoritative product version an
 
 The owner subsequently authorized **0.2.0 Unreleased** as the grouped development checkpoint after reviewing the running Milestone 1 application. This is the current development version; 0.1.0 remains an unreleased historical baseline. See [checkpoint scope and prepared commit commands](CHECKPOINT_0.2.0.md). A checkpoint commit does not change release status or imply a tag/publication.
 
+The owner has now committed/pushed that checkpoint at `a5764706afb08e93e350e8774ccf37b352c1e0f4` and authorized preparation of its GitHub prerelease. Follow the narrower [v0.2.0 publication instructions](../releases/PUBLISH_v0.2.0.md), not the historical checkpoint staging list.
+
 [CHANGELOG.md](../../CHANGELOG.md) records pending work under **Unreleased**. Document revision numbers, such as PRD v0.2, and the design studio's `DESIGN PROTOTYPE / 01` label have their own meanings. They must not set or trigger the product version.
 
 ## Pre-1.0 convention
@@ -58,3 +60,11 @@ npm.cmd run version:check
 ```
 
 If npm already matches the authoritative version, skip the npm version command. Rebuild/restart an existing optimized local preview to refresh its imported version label; this does not require migrations or reseeding. Retain earlier validation artifacts as historical evidence and document the new badge fingerprint separately.
+
+## Preparing a GitHub prerelease
+
+Keep `version` at the agreed number. Until actual GitHub publication has been verified, retain `status: "unreleased"`; add a `release` object recording `tag`, `channel: "prerelease"`, `state: "prepared"`, `prepared_on` and the accepted `checkpoint_commit`. A prepared date and a dated changelog section do not establish publication. Label the changelog date explicitly as preparation and retain Unreleased for future changes. Existing tooling continues to derive displays from `version` and `status`, so the badge remains Unreleased during preparation.
+
+The owner creates the release-preparation commit, captures its full SHA, creates an annotated tag on that exact commit, pushes that specific tag and publishes with `--verify-tag --prerelease --latest=false --notes-file`. Existing tags/releases must not be replaced, force-pushed or edited by a retry. Read-only checks must distinguish absence from authentication/network errors.
+
+After the owner runs publication commands, verify the remote annotated tag's peeled commit and the GitHub release's tag, prerelease flag, non-draft state, publication time and URL. Only a separate evidence-based follow-up may record `status: "released"`, `release.state: "published"`, actual `published_at` and `url`, while retaining `channel: "prerelease"`. Update displays/docs then without rewriting or moving the published tag; the tagged preparation snapshot remains a truthful historical record. Do not auto-increment the next version or imply a stable release/deployment.

@@ -4,7 +4,13 @@ Product version and release status are maintained in [VERSION.json](VERSION.json
 
 ## [Unreleased]
 
-**0.2.0 development checkpoint — Unreleased.** This owner-authorized grouping includes the completed standalone prototype, version tooling, product/technical documentation, and persisted four-language Rome journey. The earlier 0.1.0 was an unreleased development baseline, not a release. No prior releases are recorded or implied.
+Reserved for future work; no changes beyond the prepared 0.2.0 scope are recorded here yet. Milestone 2 has not begun.
+
+## [0.2.0] - 2026-10-01
+
+**GitHub prerelease preparation — not yet published.** This date records preparation, not a confirmed GitHub publication date. The accepted Milestone 1 checkpoint is on remote main at `a5764706afb08e93e350e8774ccf37b352c1e0f4`. The owner will commit these release-preparation files and tag that exact new release commit. See [release notes](docs/releases/v0.2.0.md) and [manual publication commands](docs/releases/PUBLISH_v0.2.0.md).
+
+This grouping includes the completed standalone prototype, version tooling, product/technical documentation, and persisted four-language Rome journey. The earlier 0.1.0 was an unreleased development baseline, not a release. Authoritative publication status remains `unreleased` with release state `prepared` until GitHub publication is verified.
 
 ### Added
 
@@ -21,7 +27,7 @@ Product version and release status are maintained in [VERSION.json](VERSION.json
 
 ### Changed
 
-* Recorded the standing owner preference: Codex prepares and validates changes and provides exact commands; the owner personally performs commits and pushes. Codex does not mutate Git history or the index. Prior checkpoint-commit authorization is withdrawn; the prepared commands remain unexecuted.
+* Recorded the standing owner preference: Codex prepares and validates changes and provides exact commands; the owner personally performs commits and pushes. Codex does not mutate Git history or the index. The owner-created checkpoint is now confirmed on remote main; Codex has executed no release-preparation Git mutations.
 * Prototype navigation retains filters, outlet/evidence context and card options in URL fragments for refresh and browser back/forward behavior.
 * Product handoff and information architecture distinguish demonstrated design flows from remaining implementation work.
 * Recorded owner acceptance of the current prototype's visual direction and interaction flows, separately from pending translation/card review, real evidence, trust-policy acceptance and launch readiness. Existing browser evidence remains applicable to the unchanged prototype.
@@ -40,4 +46,4 @@ Product version and release status are maintained in [VERSION.json](VERSION.json
 
 * **0.2.0 Unreleased** groups the accepted prototype and its illustrative hotel/hub/evidence/card flows; authoritative version management and tooling; product, trust-proposal and technical discovery/handoff documents; the persisted Rome application, fixtures and focused validation evidence. Prototype demonstrations remain distinct from implemented application capabilities.
 * Minor increment for the grouped capabilities, explicitly authorized by the owner. No existing prototype route or flow was removed, and no breaking change to the existing prototype is identified. PRD v0.2 remains a separate document revision.
-* The [checkpoint preparation](docs/development/CHECKPOINT_0.2.0.md) supplies the reviewed exact staging list and PowerShell commands. No staging, commit, tag, push, publication or deployment was performed; this is not a dated release entry.
+* The [checkpoint preparation](docs/development/CHECKPOINT_0.2.0.md) remains a historical record. Its 90-file commands are superseded for this task by the narrow release-preparation list. The checkpoint commit/push were performed by the owner; the new release commit, annotated tag and GitHub prerelease remain pending. No deployment is implied.

@@ -1,0 +1,8 @@
+CHANGELOG.md
+VERSION.json
+docs/development/CHECKPOINT_0.2.0.md
+docs/development/VERSIONING.md
+docs/product/DEVELOPMENT_HANDOFF.md
+docs/releases/PUBLISH_v0.2.0.md
+docs/releases/v0.2.0-files.txt
+docs/releases/v0.2.0.md
