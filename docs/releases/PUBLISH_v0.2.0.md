@@ -1,6 +1,14 @@
 # Prepare and publish the v0.2.0 GitHub prerelease
 
-**Prepared on:** 2026-10-01 · **GitHub publication:** not performed or confirmed
+**Prepared on:** 2026-10-01 · **GitHub publication:** verified, published prerelease
+
+## Completed publication — do not rerun creation commands
+
+The owner published [v0.2.0](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0) at **2026-10-01T12:32:09Z**. GitHub reports `prerelease: true`, `draft: false`. Annotated tag object `1b169b2f8becef6a963176018ba3e70a4a8f7a72` targets commit **8d329a6d5a1dafa561772f0536e3c7811e1e2739**. Read-only GitHub API and remote-ref checks confirmed all values before recording publication locally.
+
+At publication recording, VERSION.json retained version 0.2.0 and recorded `status: released`, `release.state: published`, channel `prerelease`, the real timestamp/URL and exact tag commit. Those displays said **Published prerelease**. The current development checkpoint is now **0.3.0 Unreleased**; all v0.2.0 publication facts are retained in `VERSION.json.release_history`. This follow-up does not rewrite the published tag or release: their original preparation snapshot is retained. Application data and the Git index are preserved; no Git mutation or GitHub edit was executed by Codex.
+
+Everything below through "Preparation validation and preservation" is the **historical preparation record**, not current claims of non-publication and not a request to execute its creation commands. Do not overwrite the existing tag/release. The owner retains all Git mutation responsibility. No production deployment or Milestone 2 implementation is implied; content/translation/medical review gates remain pending.
 
 Read-only inspection found local main and remote main at accepted checkpoint `a5764706afb08e93e350e8774ccf37b352c1e0f4`, a clean working tree/index, no local/remote v0.2.0 tag and no GitHub releases. The owner made the checkpoint commit/push. Codex prepares and validates only; every Git mutation and GitHub publication command below is for the owner to execute manually. No deployment or Milestone 2 work is included.
 
@@ -140,3 +148,38 @@ ctgit --no-optional-locks status --short
 Version synchronization/checks, metadata invariants, notes/changelog/document links, UTF-8 and whitespace checks passed. All five PowerShell blocks parsed successfully without execution. The eight-file list matches the changed/untracked release-preparation scope. Version number and display status are unchanged, so the existing 0.2.0 display screenshots remain applicable. The original application tests and four-language browser matrix are reused; no application/database behavior changed and no database commands or reseeding were performed.
 
 The prototype fingerprint remains `324c7a8aeac3adf0b00fad58e5085127e6a6d9a30b7114442ddf3141fa8fe3bd`. The preparation-time Git index fingerprint is `3024d2483581b9de9b667e2d0ec2f0443cce241815385d9516c15749b244f90d`. Neither Git mutation nor GitHub publication was executed by Codex. Translation, medical/card wording, real evidence/content and launch gates remain pending.
+
+## Publication-record follow-up validation
+
+The local recording follow-up retained version 0.2.0 and unchanged npm/lockfile mirrors. `node scripts/sync-prototype-version.cjs`, its `--check`, `npm.cmd run version:check`, the optimized build and lint passed. Three non-database tests passed. Focused label checks cover unreleased preparation, published prerelease, stable release and invalid status; metadata checks require the published tag target, timestamp and matching URL.
+
+Chrome checked the application shell in Hebrew, English, French and Russian at 1440 × 1000 and 390 × 844, plus the standalone prototype badge at both widths. All show **v0.2.0 · Published prerelease**, retain correct RTL/LTR and have no horizontal overflow. Local-preview/fictional-content notices remain; the obsolete localized Unreleased footer phrase was removed. The eight shell checks and prototype checks had no console warnings/errors. Screenshots were inspected: [application desktop](qa/v0.2.0-published/app-desktop.png), [application mobile](qa/v0.2.0-published/app-mobile.png), [prototype desktop](qa/v0.2.0-published/prototype-desktop.png), [prototype mobile](qa/v0.2.0-published/prototype-mobile.png). See the [focused validation data](qa/v0.2.0-published/validation.json).
+
+**Validation limit:** Docker's engine was stopped, so the initial Rome visit showed the existing data-service error. The successful shell checks used the existing localized not-found route, which does not query the database. No Docker restart, migration, fixture reload or database test reset was performed. Original Milestone 1 journey/persistence evidence is reused; no fresh complete journey validation is claimed.
+
+Current prototype SHA-256: `a5dfb6fcd0f83b64c2917bf4a89f6b879f973127a10e74f0d448ec8cee80b241`. Reversing only the generated status text to Unreleased exactly reproduces the preparation fingerprint above. The tag/release are unchanged. The index before and after this follow-up remains `9e1d87b329854b2ac6a457e3a3b4a897005284af3b92299dc183b6747520718f`.
+
+Changed-file scope for this follow-up (not a staging instruction):
+
+```text
+VERSION.json
+CHANGELOG.md
+scripts/check-version.js
+scripts/sync-prototype-version.cjs
+src/lib/release-label.cjs
+src/app/layout.jsx
+src/i18n/copy.js
+docs/design/CeliTrip-Design-Flow.html
+docs/design/PROTOTYPE_VALIDATION.md
+docs/development/LOCAL_DEVELOPMENT.md
+docs/development/VERSIONING.md
+docs/product/DEVELOPMENT_HANDOFF.md
+docs/technical/MILESTONE_1_VALIDATION.md
+docs/technical/TECHNICAL_DISCOVERY.md
+docs/releases/PUBLISH_v0.2.0.md
+docs/releases/qa/v0.2.0-published/app-desktop.png
+docs/releases/qa/v0.2.0-published/app-mobile.png
+docs/releases/qa/v0.2.0-published/prototype-desktop.png
+docs/releases/qa/v0.2.0-published/prototype-mobile.png
+docs/releases/qa/v0.2.0-published/validation.json
+```

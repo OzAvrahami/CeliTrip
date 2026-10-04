@@ -1,6 +1,10 @@
 # CeliTrip prototype validation
 
+**0.3.0 development checkpoint — 2026-10-04:** The synchronization tool changed only the delimited badge to **v0.3.0 · Unreleased**. Current HTML SHA-256: `1149af216074d9b998e48c666c9537670f4cc9560cb0a90d3381cddb97d0c869`. Replacing that block with its pre-checkpoint value exactly reproduces the preceding artifact. Prototype flows, fonts, assets and interactions are unchanged; their prior browser evidence is reused. Focused label validation is recorded in [checkpoint validation](../technical/CHECKPOINT_0.3.0_VALIDATION.md). The historical records below retain their original versions/fingerprints; no release or deployment is implied.
+
 **Date:** 2026-10-01 · **Scope:** Local design prototype, not production acceptance
+
+**Verified publication follow-up:** v0.2.0 is now a published GitHub prerelease. The generator changed only the delimited badge status to **Published prerelease**; current HTML SHA-256 is `a5dfb6fcd0f83b64c2917bf4a89f6b879f973127a10e74f0d448ec8cee80b241`. Reversing that status text alone reproduces the `324c7a8a…` preparation fingerprint below. Prior flow evidence is reused and retained as captured, not relabeled as fresh validation. See the [publication record](../releases/PUBLISH_v0.2.0.md) for the verified timestamp/tag and focused display validation. GitHub publication is not production acceptance or deployment.
 
 **0.2.0 checkpoint follow-up:** The owner-authorized development checkpoint regenerated only the product-version badge from 0.1.0 to **0.2.0 Unreleased**. Current HTML SHA-256: `324c7a8aeac3adf0b00fad58e5085127e6a6d9a30b7114442ddf3141fa8fe3bd`. Reversing just that generated version text exactly reproduces the prior `236fa460…` fingerprint below. Prior flow checks/screenshots remain historical evidence for unchanged behavior; they were not all rerun. See [the checkpoint report](../development/CHECKPOINT_0.2.0.md) for focused badge/display checks. The original validation record below is retained as captured.
 

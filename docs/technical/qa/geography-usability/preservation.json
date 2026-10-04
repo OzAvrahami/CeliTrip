@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-04",
+  "checks": {
+    "user": {
+      "originalRows": 1,
+      "allOriginalRowsUnchanged": true
+    },
+    "account": {
+      "originalRows": 1,
+      "allOriginalRowsUnchanged": true
+    },
+    "twoFactor": {
+      "originalRows": 1,
+      "allOriginalRowsUnchanged": true
+    },
+    "editorial_grant": {
+      "originalRows": 8,
+      "allOriginalRowsUnchanged": true
+    },
+    "publication": {
+      "originalRows": 4,
+      "allOriginalRowsUnchanged": true
+    },
+    "content_revision": {
+      "originalRows": 8,
+      "allOriginalRowsUnchanged": true
+    },
+    "admin_destination": {
+      "originalRows": 5,
+      "allOriginalRowsUnchanged": true
+    },
+    "destination_revision": {
+      "originalRows": 6,
+      "allOriginalRowsUnchanged": true
+    },
+    "destination_review": {
+      "originalRows": 5,
+      "allOriginalRowsUnchanged": true
+    }
+  },
+  "israel": {
+    "version": 1,
+    "review_state": "draft",
+    "state": "draft",
+    "published": false
+  },
+  "ownerDatabase": "celitrip_dev",
+  "reset": false,
+  "reseeded": false
+}

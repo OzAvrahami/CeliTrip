@@ -1,0 +1,28 @@
+{
+  "user": {
+    "rows": 1,
+    "unchanged": true
+  },
+  "account": {
+    "rows": 1,
+    "unchanged": true
+  },
+  "twoFactor": {
+    "rows": 1,
+    "unchanged": true
+  },
+  "content_revision": {
+    "rows": 6,
+    "unchanged": true
+  },
+  "publication": {
+    "rows": 4,
+    "unchanged": true
+  },
+  "grants": 8,
+  "qaBranch": {
+    "state": "withdrawn",
+    "revisions": 2
+  },
+  "indexUnchanged": true
+}

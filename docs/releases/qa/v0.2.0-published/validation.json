@@ -1,0 +1,78 @@
+{
+  "publication": {
+    "url": "https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0",
+    "publishedAt": "2026-10-01T12:32:09Z",
+    "prerelease": true,
+    "draft": false,
+    "tagObject": "1b169b2f8becef6a963176018ba3e70a4a8f7a72",
+    "tagCommit": "8d329a6d5a1dafa561772f0536e3c7811e1e2739"
+  },
+  "scope": "Publication metadata and status-label follow-up only; no release or Git mutations",
+  "applicationChecks": [
+    {
+      "dir": "rtl",
+      "footer": "תצוגה מקומית · לא המלצה לטיול\nv0.2.0 · Published prerelease",
+      "lang": "he",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "footer": "Aperçu local · Pas une recommandation de voyage\nv0.2.0 · Published prerelease",
+      "lang": "fr",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "footer": "Локальный просмотр · Не рекомендация для поездки\nv0.2.0 · Published prerelease",
+      "lang": "ru",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "footer": "Local preview · Not a travel recommendation\nv0.2.0 · Published prerelease",
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "footer": "Local preview · Not a travel recommendation\nv0.2.0 · Published prerelease",
+      "lang": "en",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "dir": "ltr",
+      "footer": "Aperçu local · Pas une recommandation de voyage\nv0.2.0 · Published prerelease",
+      "lang": "fr",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "dir": "ltr",
+      "footer": "Локальный просмотр · Не рекомендация для поездки\nv0.2.0 · Published prerelease",
+      "lang": "ru",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "dir": "rtl",
+      "footer": "תצוגה מקומית · לא המלצה לטיול\nv0.2.0 · Published prerelease",
+      "lang": "he",
+      "scrollWidth": 390,
+      "width": 390
+    }
+  ],
+  "applicationCheckRoute": "/[locale]/publication-label-check (existing not-found shell, no database query)",
+  "databaseLimitation": "Docker engine was not running; no restart, migration, reseed or database tests performed. Original journey evidence reused.",
+  "prototypeLabel": "v0.2.0 · Published prerelease",
+  "prototypeWidths": [
+    1440,
+    390
+  ],
+  "consoleErrorsOnFocusedShellAndPrototypeChecks": [],
+  "initialRomeNavigation": "Existing data-service error because Docker was stopped; excluded from the successful shell-check console result."
+}

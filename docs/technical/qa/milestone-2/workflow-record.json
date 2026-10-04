@@ -1,0 +1,159 @@
+{
+  "capturedAt": "2026-10-01T15:04:54.732Z",
+  "database": "celitrip_editorial_test",
+  "synthetic": true,
+  "head": [
+    {
+      "entity_id": "demo-03480f0e-2b97-4989-bbdc-025315f9fead",
+      "revision_id": "ef43f434-f4c6-41ce-824a-2809233dc440",
+      "state": "withdrawn",
+      "cycle": 1
+    }
+  ],
+  "reviews": [
+    {
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "cycle": 0,
+      "kind": "subject",
+      "locale": "*",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "created_at": "2026-10-01T14:47:39.093Z",
+      "synthetic": true,
+      "actor": "Local demo · Chrome fictional workflow"
+    },
+    {
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "cycle": 0,
+      "kind": "language",
+      "locale": "he",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "created_at": "2026-10-01T14:47:57.423Z",
+      "synthetic": true,
+      "actor": "Local demo · Chrome fictional workflow"
+    },
+    {
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "cycle": 0,
+      "kind": "language",
+      "locale": "en",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "created_at": "2026-10-01T14:48:12.810Z",
+      "synthetic": true,
+      "actor": "Local demo · Chrome fictional workflow"
+    },
+    {
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "cycle": 0,
+      "kind": "language",
+      "locale": "fr",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "created_at": "2026-10-01T14:48:22.810Z",
+      "synthetic": true,
+      "actor": "Local demo · Chrome fictional workflow"
+    },
+    {
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "cycle": 0,
+      "kind": "language",
+      "locale": "ru",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "created_at": "2026-10-01T14:48:35.673Z",
+      "synthetic": true,
+      "actor": "Local demo · Chrome fictional workflow"
+    }
+  ],
+  "audit": [
+    {
+      "action": "save",
+      "reason": "New immutable revision; dependent approvals require new review.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:46:39.047Z"
+    },
+    {
+      "action": "submit",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:46:59.128Z"
+    },
+    {
+      "action": "subject",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:47:39.093Z"
+    },
+    {
+      "action": "language",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:47:57.423Z"
+    },
+    {
+      "action": "language",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:48:12.810Z"
+    },
+    {
+      "action": "language",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:48:22.810Z"
+    },
+    {
+      "action": "language",
+      "reason": "Synthetic local demonstration review only; no human translation or medical approval.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:48:35.673Z"
+    },
+    {
+      "action": "publish",
+      "reason": "Synthetic local publication of the exact reviewed snapshot.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:49:30.969Z"
+    },
+    {
+      "action": "correction:fc62aeca-13b0-4d46-8370-cfd971ead510:triaged",
+      "reason": "Synthetic correction investigated; retain unknown state and withdraw demonstration after review.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:54:15.889Z"
+    },
+    {
+      "action": "correction:fc62aeca-13b0-4d46-8370-cfd971ead510:resolved",
+      "reason": "Synthetic correction investigated; retain unknown state and withdraw demonstration after review.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T14:54:52.764Z"
+    },
+    {
+      "action": "save",
+      "reason": "New immutable revision; dependent approvals require new review.",
+      "revision_id": "ef43f434-f4c6-41ce-824a-2809233dc440",
+      "created_at": "2026-10-01T14:55:43.358Z"
+    },
+    {
+      "action": "withdraw",
+      "reason": "Withdraw the fictional public demonstration; retain private revision and history.",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "created_at": "2026-10-01T15:02:11.867Z"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "fc62aeca-13b0-4d46-8370-cfd971ead510",
+      "revision_id": "ff551a10-8698-49d4-b0eb-538cab04ef83",
+      "claim_id": null,
+      "state": "resolved",
+      "version": 3,
+      "created_at": "2026-10-01T14:53:40.064Z"
+    }
+  ],
+  "publication": [],
+  "restartCheck": {
+    "passed": true,
+    "checkedAt": "2026-10-01T15:06:13.657Z",
+    "ownerDatabase": {
+      "revisions": "6",
+      "publications": "4",
+      "accounts": "0"
+    }
+  }
+}

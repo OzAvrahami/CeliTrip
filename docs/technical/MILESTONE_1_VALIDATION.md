@@ -2,6 +2,8 @@
 
 **Date:** 2026-10-01 · **Product:** 0.1.0 Unreleased · **Scope:** local fictional Rome journey only
 
+**Publication follow-up:** The owner has published [v0.2.0 as a GitHub prerelease](../releases/PUBLISH_v0.2.0.md). The original tests, flow observations and screenshots below remain historical evidence for unchanged application behavior. The follow-up changes publication metadata and footer/badge wording only; it does not rerun or broaden the original flow matrix. That follow-up displayed Published prerelease. The later 0.3.0 Unreleased checkpoint changes current labels again; see [its focused validation](CHECKPOINT_0.3.0_VALIDATION.md). Historical screenshots below retain their captured versions and local-demo/unreviewed-content notices.
+
 **Historical validation snapshot:** The results and screenshots below were captured at the unreleased 0.1.0 baseline. The owner subsequently reviewed the running application and accepted the demonstrated implementation ("looks good"), with translation, medical/card wording, real content and launch readiness still pending. The authorized **0.2.0 Unreleased checkpoint** changes product metadata and version displays only; see [checkpoint validation and fingerprint reconciliation](../development/CHECKPOINT_0.2.0.md). The original manifest/screenshots are retained unchanged, not relabeled as newly executed checks.
 
 The owner authorized the architecture and local milestone 1. The working implementation is separate from the unchanged [standalone design prototype](../design/CeliTrip-Design-Flow.html). Its visual/interaction acceptance remains recorded in the [handoff](../product/DEVELOPMENT_HANDOFF.md). Translation review, celiac-card wording, real evidence and launch readiness remain pending.

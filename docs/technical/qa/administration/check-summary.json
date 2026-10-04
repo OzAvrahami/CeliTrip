@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-02",
+  "currentVersion": "0.2.0",
+  "releaseStatus": "published prerelease",
+  "proposedVersion": "0.3.0",
+  "ownerAcceptance": "pending",
+  "databaseTests": {
+    "passed": 30,
+    "failed": 0,
+    "databases": [
+      "celitrip_test",
+      "celitrip_editorial_test"
+    ]
+  },
+  "checks": {
+    "build": "passed",
+    "lint": "passed",
+    "version": "passed",
+    "administrationHTTP": "passed; unchanged auth evidence reused after final sort/display cleanup"
+  },
+  "ownerDatabase": "celitrip_dev",
+  "url": "http://127.0.0.1:3000/en/editor",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "locales": [
+        "en",
+        "he",
+        "fr",
+        "ru"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "locales": [
+        "en",
+        "he",
+        "fr",
+        "ru"
+      ]
+    }
+  ],
+  "sourceFingerprint": "ffc03e45c529e12ee44569366ae38589eed6acb380d90ffc8d87eca6de439e8d",
+  "files": {
+    "VERSION.json": "c9aecc77fe58bf5388fb5ccaefa34b064e70ffbbcf0e38eb2b5515d4297c0c5c",
+    "db/migrations/1790812800000_rome.cjs": "7b950a143d1e54eb4af4046e8b7fe679191ff1d51c02766c0be31585056f54d5",
+    "db/migrations/1790812800001_scopes.cjs": "f88b53beb2c247f23565ae1831dc28c93c732986a1923356479ea642edb9270d",
+    "db/migrations/1790850000000_auth.cjs": "127a525de2e50bfa2e615bc5d874e00965eed4c8b3269a96682edd3b6f4c8f5b",
+    "db/migrations/1790850000001_editorial.cjs": "d010e7d3be07c9bc79126da41c88e312c8b170616e0f0a0f9faf75cc4a6dd07e",
+    "db/migrations/1790850000002_local_demo_session.cjs": "a5b09b0ba97051a75494953c2871abc5cd2a20aeac60f7086a41624c1afe3db3",
+    "db/migrations/1790930000000_administration.cjs": "93dcd10874862ae0139cd19a4552f261716aaf4297c15fef2ee4f411ec923509",
+    "db/migrations/1790930000001_catalog_dates.cjs": "8545f0fe9c3754794f04ffb3bcc168fcadd8642d34b25532c0c39d412acba6a6",
+    "package-lock.json": "60dd66e6c23d70f963d4af5179e1ff57a0e15bd2f9010256f842feb4f32e854d",
+    "package.json": "ff11c419423e218ca1f68e5882e74c7e64c48a139cfa1b1c7a0e90a68cc7396b",
+    "src/app/[locale]/[[...path]]/page.jsx": "a5e74aa0b76931dbb7c77e4d4488c35619fb5bbde2ba2ebc3dc8409f6ace38cc",
+    "src/app/[locale]/editor/[[...editorPath]]/page.jsx": "270d19ade3aef276dee0c833094ae2ccf53efdc5803bf8442084ebe207d271e7",
+    "src/app/[locale]/editor/error.jsx": "2ecf53047d39f4a427f8d4e830d1c01f8206902f0ca0d20798fa58df2caa0ee4",
+    "src/app/[locale]/editor/layout.jsx": "379bab9451067b5bd455c375137e50eaa8de87a1685fe4f335c1760f244456e9",
+    "src/app/[locale]/editor/loading.jsx": "ec3a13c959eeb2ea00c2d02374f6541532ce1d536a317576b46c3b78ecc4e0fb",
+    "src/app/[locale]/error.jsx": "9d6fe1724ac1245327bbb0997b098850fa55ac54e62171725b9ab83c3e0f1db7",
+    "src/app/[locale]/loading.jsx": "fa96d4ca295a5799d9e996fd191e6b3e63d3d928ff7282ee3d395426cbcea4bd",
+    "src/app/api/administration/route.js": "5de35f4594597bc16f16e0406b6ed6248aeb3566e015033abe90cdfbbb60e800",
+    "src/app/api/auth/[...all]/route.js": "6ff6bf3e0077b490bb97ca8fa349d1b79050bf16029bf644ce4ab949c4c9ce5e",
+    "src/app/api/corrections/route.js": "0089914995a00ebfadeedd5bdba3cb537006ae985c85311cf83bab7ca580dab9",
+    "src/app/api/editorial/route.js": "0b82b5f412eb43cc29e782eaf4e75c928ed83ba4ef8c8806189e0db701109b45",
+    "src/app/layout.jsx": "82560095141870152aa5530ef51aac596cc7be9b01fd5b54f32d0f17538d221e",
+    "src/app/not-found.jsx": "032c4509a7a6a372ec06b3b25dd2238951ecf411e19a0ce9ddb1cfe917770f4e",
+    "src/app/page.jsx": "9cfb28ff676d5e7e759c7423d47e6a8828850b005d8b59ed2b8f03df6f663388",
+    "src/app/robots.js": "7316b6eafbbdc822aa9108fb0e66cea2e9bc58aff46992141a95af11ce16638f",
+    "src/components/Admin.module.css": "94253dffd6481a1f0842ea30aeeba1ba3d63dfde227e381932b694da332008bf",
+    "src/components/AdminForms.jsx": "943737cfe158934fc69d84a42ae2def4d69f33ea6526ce183a92d897e825ddb8",
+    "src/components/AdminShell.jsx": "5cb7758d994247d0c186d9e962b55ad3599d2867e84009e0ea39a377f2633bfb",
+    "src/components/AdminWorkspace.jsx": "3c7126d54efe2b3d800b844baf698418fd9b78dcd4fcee0b3860be6e0ae18eb7",
+    "src/components/CorrectionForm.jsx": "8753c674337ee191ea901e0bfb843f24a30986af303542988a667a71e9b16b5b",
+    "src/components/Editorial.module.css": "31ffe8259b110706132b34f77e556166d59e733456bd4e3a427d01c2517ede84",
+    "src/components/EditorialAuth.jsx": "24a362984be39a5529149de626ee9804783e2e4dcae9e9e8c1c776863550a3f8",
+    "src/components/EditorialForm.jsx": "7314f1909023c57ca1f46bc1d6ddbbf412428c15b19c42bd2b834c432a80dda4",
+    "src/components/EditorialStudio.jsx": "fd49eb20214407dc1f3568b0a0715d0a04d9ba11be0a9eec284ef5bc555a099d",
+    "src/components/Journey.jsx": "1b336e1368972e34ba203a1487965520a4c50d32678867f4c029f4a10defc1c9",
+    "src/components/Journey.module.css": "5921fbea653ad5ebd6abc1cf92258c3ed3c244305f0c933ab8db4de1767ad61a",
+    "src/components/LanguageSwitcher.jsx": "ebe40138014e45a4da05b810659f8bef1b71b1d2d889056cb9dac8b206f7cde7",
+    "src/components/RevisionComparison.jsx": "5e1d8d7f3f0849ce8769476c316f43f84c1470868bf5f832058ea7c9d16d337b",
+    "src/components/Shell.module.css": "92c8b68c8f4512ca421befe73d3240e7fab3c486041f08867f1dfd727e20fe93",
+    "src/components/TranslationEditor.jsx": "55d75b866166bb2f0710ec9c3d9d894a2f047c4fc0bc557a23eb137451f21d1f",
+    "src/i18n/admin.js": "796a4c7c3fe7bb8fbb09c581cff3f7a5be62c38984f0cc3e20d6c3668c291419",
+    "src/i18n/copy.js": "13632b99c117c4932ccf09ecef4bf5d38a86edf6d3ea4f70ba3c13faeabb1ae2",
+    "src/i18n/editorial.js": "f70874f0e3d8de3d444ead22088671a9e11dbc7e12407795e11dac16596746b4",
+    "src/lib/release-label.cjs": "1a3fb08e24a572b17e9588e0bd6c30da1d9199f4ebc0246d0a146351b6ebe7d0",
+    "src/proxy.js": "f0fb70e29595fc6b2dbc9695087b5dba71555118aa798050dbcc5950de424e5b",
+    "src/server/administration.js": "448c9c506929b65cd7019028858965b4baff98776a8ce7b4dffe425a44bb530c",
+    "src/server/auth-config.js": "977156e747857cc12577d5145f3881d600b4aeeef34959a8dcb21faf1bcfe5ee",
+    "src/server/auth.js": "f1ee930354e56d590c3191e535e50f60115f58bc25e9816d00651d769272ee49",
+    "src/server/corrections.js": "3283b2e3388e82a9f66573e4f03fe93e630e600ee9540bb85885f938dfa4c457",
+    "src/server/db.js": "4da9b1d5ba3a09b4ef25ba2d802ff16e20bda2bd047a267a700aa5210dc25332",
+    "src/server/editorial-http.js": "1d09db2ad21c57565b3348b1f1b130e428080dbab7b99dbb0389f8ff90fb40bc",
+    "src/server/editorial-service.js": "a8c11bd88b7d2adc0a4689e07499f2484002b266271af3566096fa875baae68e",
+    "src/server/editorial-validation.js": "822f0aeea6f65f2de04cc00bc474fb7b80bd65ca46d7b4bad683c57c977cdc35",
+    "src/server/local-config.js": "a7a1fc930d13e3efd5ee66d29aed132f2e1d9793e4dd629bc108e71c2572f317",
+    "src/server/local-demo-auth.js": "3e4aea305f699d0ca9f98276e08d7ebe42c0dce3c5a99b5418a20c2e506d4a96",
+    "src/server/repository.js": "6d9f176d7312ec56fd11f9b895bbc2f6739a9cee53feb239ae0bdec481a8130f",
+    "src/styles/fonts.css": "8e590590e9caac34dc439732f046ca3c4420985588df3c5222c13155c2d570d2",
+    "src/styles/globals.css": "43b392af3431052b2a909989c933e919dd9c10080f6ab0186ee2992df6c51f7c"
+  },
+  "screenshots": {
+    "correction-en-desktop.png": "1717d42b46760cf5b44519dceaa1b3b9bf23f05a9a6df4b83f59a721c93480ac",
+    "dashboard-en-desktop.png": "ab6a0336cba8c66bfee5498a0a11060a1b63c9e414bd2059756bbd3be1816a07",
+    "dashboard-en-mobile.png": "38b7ad1457a25659bb20ba5d782bcabb33a1f22b642f87b9c2094e9045a30141",
+    "dashboard-fr-desktop.png": "742af0b70b595eb1452d1da25a9715338e2165f81baba178aec235cc493e9dd8",
+    "dashboard-fr-mobile.png": "90ef7d1ed7d71370b4ec7f420ee68d0ebcd351123597230dc867ea3ef341cb04",
+    "dashboard-he-desktop.png": "cd60f88e9bfb1dcb47dbb1261d3a9b184f9d790af479ee64eeaf760e077e9444",
+    "dashboard-he-mobile.png": "ad06adec8abc25fe63d441d750833b34b7edeb810f124aa4228937f6ba201fa8",
+    "dashboard-ru-desktop.png": "db010e93df8652fc8a0632ea3390a67414cdc57b3549d1ef76766b2a038aea4e",
+    "dashboard-ru-mobile.png": "38e3faecb08eaad6e9e673b146a4526e7ec42809f7f38e69a9c1459656c2158d",
+    "drawer-he-mobile.png": "7526446f58bd42984d139869d6242e1e94fb0e88be3a64b1ac32852d5f026d0c",
+    "evidence-he-mobile.png": "eb3077023eedb39f77151bc61c9d34140b8e6b1bc6ea8e2aa9005e0d1022a480",
+    "review-en-desktop.png": "8fa85a5608552eedcc3524419eb18c2381fefe39dd293da71d647869187f62a9",
+    "public-rome-he-mobile.png": "ea278ed6b74b7b150f2245e28ed0a86c8c5521ce5ed365f41801ca752dea2663"
+  },
+  "browser": {
+    "workflow": "create/evidence/reviews/preview/publish/public/private draft/conflict/correction/withdraw passed",
+    "mobileDrawer": "Tab/Escape/focus return passed",
+    "catalog": "fictional country saved and archived; required field errors observed",
+    "settings": "temporary tagline consumed and restored",
+    "team": "self-change controls disabled; no credential fields on existing account",
+    "lists": "audit second page; conflicting source history filters and language context passed",
+    "publicRome": "Hebrew mobile destination/list/category/branch/evidence passed; original three branches intact",
+    "console": "No warning/error messages in inspected workflow tab; expected stale-save 409 in separate conflict tab",
+    "limitations": "Native unsaved-change confirmation observed, automated accept/cancel interrupted by browser transport; connection recovered using fresh tabs",
+    "finalDashboard": {
+      "url": "http://127.0.0.1:3000/en/editor",
+      "openForOwner": true,
+      "viewportOverride": "reset",
+      "consoleWarnings": 0,
+      "consoleErrors": 0
+    }
+  },
+  "documentChecks": {
+    "utf8": "passed",
+    "relativeLinks": "passed",
+    "whitespace": "passed",
+    "manifestFiles": 101
+  },
+  "resumptionReview": {
+    "date": "2026-10-02",
+    "initialFingerprintMatches": 58,
+    "sectionsInspected": [
+      "Dashboard",
+      "Destinations",
+      "Places",
+      "Categories",
+      "Sources & evidence",
+      "Translations",
+      "Review & publication",
+      "Corrections",
+      "Team & access",
+      "Settings & policy",
+      "Activity"
+    ],
+    "fix": "Team chronological sorting now uses persisted account creation dates.",
+    "focusedDatabaseTest": {
+      "command": "node --env-file=.env.local --test --test-name-pattern='team chronology sorting' tests/editorial.test.js",
+      "passed": 1,
+      "failed": 0,
+      "database": "celitrip_editorial_test",
+      "testFileHash": "2ec094297bf98a7627ac9c7786d0cf6aed564747be2e91d0811aa67168fc6401"
+    },
+    "checks": {
+      "targetedLint": "passed",
+      "build": "passed",
+      "version": "passed"
+    },
+    "reused": "Prior 30-test suite, HTTP authorization/workflow evidence and four-language desktop/mobile screenshots. Not rerun.",
+    "priorSourceFingerprint": "b36ac9eba9a2944a8802f8ab32424560b6b830def943da5cf6753a6dbe56e99d",
+    "priorChangedFileHashes": {
+      "src/server/administration.js": "f32ebdc254cee91e06983f575f90cce2c077b19b0bfb40df6ad1252761c961cf"
+    },
+    "ownerDatabaseMutations": "none",
+    "browser": {
+      "teamSort": "Oldest first submitted and retained in URL/select; existing account displayed",
+      "dashboard": "Open at http://127.0.0.1:3000/en/editor after restart",
+      "consoleErrors": 0,
+      "consoleWarnings": 0
+    }
+  }
+}

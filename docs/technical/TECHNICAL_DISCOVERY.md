@@ -1,10 +1,10 @@
 # CeliTrip technical discovery — issue #4
 
-**Recorded:** 2026-10-01 · **Status:** Architecture subsequently approved for local implementation; milestone 1 implemented; cloud services not provisioned
+**Recorded:** 2026-10-01 · **Status:** Architecture subsequently approved for local implementation; milestones 1 and 2 implemented locally; cloud services not provisioned
 
-Discovery was recorded at **0.1.0 Unreleased** and had no product-version impact itself. The subsequent owner-authorized development checkpoint is **0.2.0 Unreleased**, as defined in [VERSION.json](../../VERSION.json). Document revisions are independent; neither baseline is a published release.
+Discovery was recorded at **0.1.0 Unreleased** and had no product-version impact itself. The subsequent **0.2.0** checkpoint was published as a GitHub prerelease and is retained in [the publication record](../releases/PUBLISH_v0.2.0.md). Current development is **0.3.0 Unreleased**, as defined in [VERSION.json](../../VERSION.json). Document revisions are independent; 0.1.0 was never released. Prerelease publication does not provision or deploy the recommended services.
 
-**Implementation follow-up:** The owner later authorized milestone 1 using this architecture, reviewed it running and accepted the demonstrated implementation. The local Next.js/PostgreSQL Rome journey is implemented; see [setup](../development/LOCAL_DEVELOPMENT.md) and [validation evidence](MILESTONE_1_VALIDATION.md). It is included in the approved [0.2.0 Unreleased checkpoint](../development/CHECKPOINT_0.2.0.md). The recommendations below remain the plan for later milestones; discovery itself did not provision services. Stable readable text IDs are used for deterministic fixtures; UUID identities/slug redirects, reviewed aliases, editorial approvals and public SEO remain real-data/launch work. `/` currently redirects to Hebrew Rome, with the four-language selector in the shell; the broader destination/language landing page is future work.
+**Implementation follow-up:** The owner later authorized milestone 1 using this architecture, reviewed it running and accepted the demonstrated implementation. The local Next.js/PostgreSQL Rome journey is implemented; see [setup](../development/LOCAL_DEVELOPMENT.md) and [validation evidence](MILESTONE_1_VALIDATION.md). It is included in the approved [0.2.0 checkpoint](../development/CHECKPOINT_0.2.0.md), subsequently published as a prerelease. The recommendations below remain the plan for later milestones; discovery itself did not provision services. Stable readable text IDs are used for deterministic fixtures; UUID identities/slug redirects, reviewed aliases, editorial approvals and public SEO remain real-data/launch work. `/` currently redirects to Hebrew Rome, with the four-language selector in the shell; the broader destination/language landing page is future work.
 
 ## Basis and accepted scope
 
@@ -31,7 +31,7 @@ Next.js documents self-hosting and locale-segment routing; Railway documents Nex
 
 A separate CMS would supply generic editing screens but still require custom evidence, revision and publication rules. It is not recommended for this small V1 team. A browser-only SPA would require additional rendering work for the localized search landing pages. Neither adds enough value to justify another stack now.
 
-Target repository layout (milestone 1 now implements the public journey/data subset; auth/API/editorial/offline modules remain future work):
+Target repository layout (milestone 1 now implements the public journey/data subset; auth/API/editorial modules now implemented in milestone 2; offline remains future work):
 
 ```text
 src/app/[locale]/       public pages and localized editorial routes
@@ -126,7 +126,7 @@ Local development: supported Node LTS pinned at implementation, npm lockfile, Do
 
 ## Ordered implementation plan
 
-Milestone 1 has since been authorized and implemented locally. Milestones 2–5 remain future work; this plan does not authorize provisioning or deployment.
+Milestone 1 has since been authorized and implemented locally. Milestone 2 is now implemented locally with synthetic identities/reviews; milestones 3–5 remain future work; this plan does not authorize provisioning or deployment.
 
 | Order | Deliverable | Acceptance criteria |
 | --- | --- | --- |
@@ -143,3 +143,17 @@ Milestone 1 has since been authorized and implemented locally. Milestones 2–5 
 Before real editorial publication: owner must assign reviewer/publisher authority and accept publication/conflict/translation rules, correction handling and any review intervals to activate. Before public hosting: approve recurring budget and appoint an operator able to restore/maintain PostgreSQL (otherwise choose the managed alternative). Before cards or destination launch: obtain the still-pending wording/language reviews, source/branding rights, real evidence and coverage decision. These gates do not require redesigning the accepted prototype or choosing all launch cities before the Rome slice.
 
 V1 exclusions remain: native apps, traveler accounts, social/community features, public comments/ratings, trips/saved places, automated itineraries, AI recommendations, reservations and user-authored guides. No new service, backend, authentication, map subscription, offline capability, publication or deployment is established by this document.
+
+## Milestone 2 implementation follow-up
+
+The subsequent owner-authorized administration expansion adds a dedicated responsive workspace, persisted catalog/settings/access management, scoped queues and correction assignment within the same Next.js/PostgreSQL domain services. It uses additive migrations and preserves the accepted public Rome slice. See [administration validation](ADMINISTRATION_VALIDATION.md). This is local fictional implementation, still awaiting owner acceptance; no infrastructure or later milestone has been provisioned.
+
+The owner explicitly authorized local editorial implementation. Better Auth 1.7.7, PostgreSQL sessions with per-session TOTP enforcement, immutable revision review, atomic local publication/withdrawal and private corrections now implement milestone 2. See [actual validation and limits](MILESTONE_2_VALIDATION.md) and [secure local setup](../development/LOCAL_DEVELOPMENT.md). The earlier recommendation is retained as discovery history. Real-content publication remains blocked; synthetic local reviews do not assign real authority or approve translations. Proposed review intervals remain inactive. Current product metadata is 0.3.0 Unreleased; the published 0.2.0 prerelease remains in historical release metadata. This is a development checkpoint, not a new publication.
+
+### Geography workflow refinement — 2026-10-04
+
+The owner approved a narrow exception for basic geographic labels/identity/hierarchy: optional-note drafts and direct, explicitly confirmed, scoped publisher actions in the guarded local environment. These use immutable `destination_revision` records and a separate `destination_publication` pointer; they cannot move substantive `publication` pointers or publish guidance/claims. Formal subject/four-language gates still apply to substantive content. Existing geography reviews are retained as history. See [validation and exact boundary](GEOGRAPHY_USABILITY_VALIDATION.md). DeepL setup is deferred; geographic lookup and manual names remain available. No architecture/version change, launch-policy acceptance, or deployment is implied.
+
+### Grouped development checkpoint — 2026-10-04
+
+The owner authorized **0.3.0 Unreleased** for completed local Milestone 2/editorial, administration, guarded demo login and geographic destination work. Acceptance covers the demonstrated corrected destination workflow only; other acceptance, translations, medical wording, real reviewer authority/content and production readiness remain separate. DeepL remains deferred; geographic-name lookup is working. Historical version/proposal statements above describe their original task dates. See [checkpoint](../development/MILESTONE_2_CHECKPOINT.md). No later milestone or cloud implementation started.

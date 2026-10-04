@@ -104,3 +104,9 @@ Before public use, communication cards need both competent target-language revie
 ## 9. Decisions Still Requiring Review
 
 Accept or revise the proposed intervals; appoint editorial and language/card reviewers; establish authority/program records and rights; define the correction-review service level and the destination coverage threshold. Until reviewed, this proposal does not close issue #2.
+
+## Accepted narrow geography workflow — 2026-10-04
+
+The owner explicitly approved simplifying **basic country/city identity, hierarchy and localized names** in the guarded local environment. Registering or publishing those labels does not require celiac subject review or four formal language-review actions. Normal validation, scoped editing/publisher permissions, explicit confirmation of an exact saved revision, immutable history, private drafts and pinned published revisions remain required. Earlier geographic review records are retained, not fabricated or deleted.
+
+This acceptance does **not** approve substantive travel guidance, venue safety claims, evidence, celiac-card wording, real reviewer appointments or launch coverage. Those remain governed by their separate review gates and pending real-content policies. Geography-only publication must never publish attached unreviewed guidance/claims. All proposed intervals elsewhere in this document remain proposals. No existing destination is automatically published by this change.

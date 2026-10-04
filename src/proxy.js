@@ -10,6 +10,7 @@ export function proxy(request) {
   }
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-celitrip-locale', request.nextUrl.pathname.split('/')[1] || 'en');
+  requestHeaders.set('x-celitrip-editorial',request.nextUrl.pathname.split('/')[2]==='editor'?'1':'0');
   const response = NextResponse.next({request:{headers:requestHeaders}});
   response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
   response.headers.set('Cache-Control', 'no-store');

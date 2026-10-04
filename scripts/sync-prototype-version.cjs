@@ -4,6 +4,7 @@
 // VERSION.json is authoritative. Keep the standalone review artifact self-contained.
 const fs = require('node:fs');
 const path = require('node:path');
+const { releaseLabel } = require('../src/lib/release-label.cjs');
 const root = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
 if (args.some(arg => arg !== '--check') || args.length > 1) {
@@ -24,7 +25,7 @@ try {
   if (html.split(start).length !== 2 || html.split(end).length !== 2 || html.indexOf(end) < html.indexOf(start)) {
     throw new Error('Expected exactly one correctly ordered product-version block in the prototype.');
   }
-  const status = metadata.status === 'unreleased' ? 'Unreleased' : 'Released';
+  const status = releaseLabel(metadata);
   const generated = `${start}<span class="product-version" id="product-version" lang="en" dir="ltr">v${metadata.version} · ${status}</span>${end}`;
   const a = html.indexOf(start), b = html.indexOf(end) + end.length;
   const current = html.slice(a, b);

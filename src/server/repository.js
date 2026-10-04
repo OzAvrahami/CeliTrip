@@ -4,7 +4,7 @@ export const categories = ['bakery','cafe','grocery','restaurant','supermarket']
 export const dimensions = ['unknown','historical','needs_review','conflicting','chain_scope'];
 export function filtersFrom(params = {}) {
   const one = (v) => typeof v === 'string' ? v : '';
-  return { category: categories.includes(one(params.category)) ? params.category : '',
+  return { category: categories.includes(one(params.category)) || /^category-[a-f0-9-]{36}$/.test(one(params.category)) ? params.category : '',
     dimension: dimensions.includes(one(params.dimension)) ? params.dimension : '', q: one(params.q).trim().slice(0,80) };
 }
 export function filterQuery(filters) {
@@ -16,12 +16,27 @@ export function filterQuery(filters) {
 export function repository(db) {
   const validateLocale = (locale) => { if(!['he','en','fr','ru'].includes(locale)) throw new Error('Unsupported locale'); };
   return {
+    async destination(id,locale){
+      validateLocale(locale);
+      const {rows}=await db.query(`WITH RECURSIVE lineage AS (
+        SELECT id,parent_id FROM entity WHERE id=$1 UNION ALL SELECT e.id,e.parent_id FROM entity e JOIN lineage l ON e.id=l.parent_id)
+        SELECT e.id,e.parent_id,d.kind,r.labels->$2 AS title,r.number FROM destination_publication p
+        JOIN destination_revision r ON r.id=p.revision_id JOIN entity e ON e.id=p.entity_id JOIN admin_destination d ON d.entity_id=e.id
+        WHERE e.id=$1 AND NOT EXISTS(SELECT 1 FROM lineage l LEFT JOIN destination_publication p ON p.entity_id=l.id WHERE p.entity_id IS NULL)`,[id,locale]);
+      return rows[0]||null;
+    },
+    async categories(){return (await db.query('SELECT id,labels FROM admin_category WHERE NOT archived ORDER BY labels->>\'en\'')).rows;},
     async entity(id, locale) {
       validateLocale(locale);
       const {rows}=await db.query(`SELECT p.*, t.title, t.summary, t.review_status
         FROM published_content p JOIN translation_revision t ON t.revision_id=p.revision_id
         WHERE p.id=$1 AND t.locale=$2`,[id,locale]);
-      return rows[0] || null;
+      const row=rows[0];if(!row)return null;
+      if(row.kind==='branch'&&row.parent_id!=='rome'&&!await this.destination(row.parent_id,locale))return null;
+      if(row.kind==='destination'){
+        const updated=await this.destination(id,locale);if(updated)row.title=updated.title;
+      }
+      return row;
     },
     /** @param {Locale} locale @param {Filters} filters */
     async places(locale, filters={}) {

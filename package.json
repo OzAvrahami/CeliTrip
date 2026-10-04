@@ -1,6 +1,6 @@
 {
   "name": "celitrip",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -16,9 +16,12 @@
     "db:seed": "node --env-file=.env.local scripts/seed.js",
     "test": "node --env-file=.env.local --test tests/*.test.js",
     "lint": "eslint .",
-    "version:check": "node scripts/sync-prototype-version.cjs --check && node scripts/check-version.js"
+    "version:check": "node scripts/sync-prototype-version.cjs --check && node scripts/check-version.js",
+    "auth:configure": "node scripts/auth-configure.js",
+    "auth:account": "node --env-file=.env.local scripts/editorial-account.js"
   },
   "dependencies": {
+    "better-auth": "1.7.7",
     "next": "16.3.8",
     "pg": "8.23.1",
     "react": "19.3.0",

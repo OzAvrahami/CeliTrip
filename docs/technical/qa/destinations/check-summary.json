@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-04",
+  "currentVersion": "0.2.0",
+  "releaseStatus": "published prerelease",
+  "proposedVersion": "0.3.0",
+  "ownerAcceptance": "pending",
+  "checks": {
+    "database": {
+      "passed": 35,
+      "failed": 0,
+      "databases": [
+        "celitrip_test",
+        "celitrip_editorial_test"
+      ]
+    },
+    "http": "Focused destination HTTP checks passed before final naming-mode provenance retention; unchanged session/role/origin code evidence reused.",
+    "lint": "passed",
+    "build": "passed",
+    "version": "passed",
+    "focusedGeographic": {
+      "passed": 2,
+      "failed": 0,
+      "command": "node --env-file=.env.local --test --test-name-pattern='geographic candidates|provider integration' tests/editorial.test.js",
+      "scope": "Same-name city regional disambiguation and rejection of ended geographic relationships; live Rome region response also checked."
+    }
+  },
+  "translation": {
+    "geographic": "Live Wikidata country/city responses; Hebrew France selection generated and persisted other three names in Chrome",
+    "machine": "Not configured; no key and no live translation success. Synthetic adapter tests and real HTTP missing-configuration error only."
+  },
+  "browser": {
+    "workflow": "Geographic generation, manual French correction/regeneration, save, subject + four-language reviews, preview, publish, public read, newer draft isolation, withdraw, archive passed",
+    "languages": [
+      "he",
+      "en"
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "overflow": false,
+    "consoleWarnings": 0,
+    "consoleErrors": 1,
+    "qaDestination": "demo-destination-a591bd55-98c9-4eba-b99f-d944b8fd1e25",
+    "qaFinalState": "archived and unpublished",
+    "limitation": "Viewport override initially affected a different tab; incorrect capture replaced. One screenshot timeout retried. Existing native unsaved-dialog automation gap remains.",
+    "finalScreen": {
+      "url": "http://127.0.0.1:3000/he/editor/destinations/new",
+      "openForOwner": true,
+      "viewportOverride": "reset",
+      "lang": "he",
+      "dir": "rtl",
+      "consoleWarnings": 0,
+      "consoleErrors": 0
+    },
+    "transientConsoleError": "A tab open during an optimized rebuild logged one stale ChunkLoadError at 07:02 UTC. Full navigation recovered the screen; final review uses a fresh tab."
+  },
+  "reused": "Unchanged French/Russian shell and prior administration workflows; no claim that all old browser checks were rerun.",
+  "url": "http://127.0.0.1:3000/he/editor/destinations/new",
+  "files": {
+    "VERSION.json": "c9aecc77fe58bf5388fb5ccaefa34b064e70ffbbcf0e38eb2b5515d4297c0c5c",
+    "db/migrations/1790812800000_rome.cjs": "7b950a143d1e54eb4af4046e8b7fe679191ff1d51c02766c0be31585056f54d5",
+    "db/migrations/1790812800001_scopes.cjs": "f88b53beb2c247f23565ae1831dc28c93c732986a1923356479ea642edb9270d",
+    "db/migrations/1790850000000_auth.cjs": "127a525de2e50bfa2e615bc5d874e00965eed4c8b3269a96682edd3b6f4c8f5b",
+    "db/migrations/1790850000001_editorial.cjs": "d010e7d3be07c9bc79126da41c88e312c8b170616e0f0a0f9faf75cc4a6dd07e",
+    "db/migrations/1790850000002_local_demo_session.cjs": "a5b09b0ba97051a75494953c2871abc5cd2a20aeac60f7086a41624c1afe3db3",
+    "db/migrations/1790930000000_administration.cjs": "93dcd10874862ae0139cd19a4552f261716aaf4297c15fef2ee4f411ec923509",
+    "db/migrations/1790930000001_catalog_dates.cjs": "8545f0fe9c3754794f04ffb3bcc168fcadd8642d34b25532c0c39d412acba6a6",
+    "db/migrations/1791100000000_destination_workflow.cjs": "3218f8b7f97f2aaf7745493f7c189484f45add065250618e7c4094acf3eeff36",
+    "package-lock.json": "60dd66e6c23d70f963d4af5179e1ff57a0e15bd2f9010256f842feb4f32e854d",
+    "package.json": "ff11c419423e218ca1f68e5882e74c7e64c48a139cfa1b1c7a0e90a68cc7396b",
+    "scripts/validate-destination-http.js": "a038a9ff532e9bf12ae3bc9ea3e3a7ed156911b932ff52acbb5cac50725aac66",
+    "src/app/[locale]/[[...path]]/page.jsx": "31d8b0c4567ce1083bba15147264d47bd07de280a772b8505b1f69136524fd0f",
+    "src/app/[locale]/editor/[[...editorPath]]/page.jsx": "0ea65cb836003826871b5a267e16864439ef5c818b36a8b2771d20432087caee",
+    "src/app/[locale]/editor/error.jsx": "2ecf53047d39f4a427f8d4e830d1c01f8206902f0ca0d20798fa58df2caa0ee4",
+    "src/app/[locale]/editor/layout.jsx": "379bab9451067b5bd455c375137e50eaa8de87a1685fe4f335c1760f244456e9",
+    "src/app/[locale]/editor/loading.jsx": "ec3a13c959eeb2ea00c2d02374f6541532ce1d536a317576b46c3b78ecc4e0fb",
+    "src/app/[locale]/error.jsx": "9d6fe1724ac1245327bbb0997b098850fa55ac54e62171725b9ab83c3e0f1db7",
+    "src/app/[locale]/loading.jsx": "fa96d4ca295a5799d9e996fd191e6b3e63d3d928ff7282ee3d395426cbcea4bd",
+    "src/app/api/administration/route.js": "7de45dac75fc8bd8f887983905f8ca73add041d98cbd99804d528f7e7c2ead7f",
+    "src/app/api/auth/[...all]/route.js": "6ff6bf3e0077b490bb97ca8fa349d1b79050bf16029bf644ce4ab949c4c9ce5e",
+    "src/app/api/corrections/route.js": "0089914995a00ebfadeedd5bdba3cb537006ae985c85311cf83bab7ca580dab9",
+    "src/app/api/editorial/route.js": "0b82b5f412eb43cc29e782eaf4e75c928ed83ba4ef8c8806189e0db701109b45",
+    "src/app/layout.jsx": "82560095141870152aa5530ef51aac596cc7be9b01fd5b54f32d0f17538d221e",
+    "src/app/not-found.jsx": "032c4509a7a6a372ec06b3b25dd2238951ecf411e19a0ce9ddb1cfe917770f4e",
+    "src/app/page.jsx": "9cfb28ff676d5e7e759c7423d47e6a8828850b005d8b59ed2b8f03df6f663388",
+    "src/app/robots.js": "7316b6eafbbdc822aa9108fb0e66cea2e9bc58aff46992141a95af11ce16638f",
+    "src/components/Admin.module.css": "94253dffd6481a1f0842ea30aeeba1ba3d63dfde227e381932b694da332008bf",
+    "src/components/AdminForms.jsx": "943737cfe158934fc69d84a42ae2def4d69f33ea6526ce183a92d897e825ddb8",
+    "src/components/AdminShell.jsx": "5cb7758d994247d0c186d9e962b55ad3599d2867e84009e0ea39a377f2633bfb",
+    "src/components/AdminWorkspace.jsx": "5248b5a165518764e5cbf1c70ce60b0e8fe77824869e4f7150d5fbf317f03a2c",
+    "src/components/CorrectionForm.jsx": "8753c674337ee191ea901e0bfb843f24a30986af303542988a667a71e9b16b5b",
+    "src/components/DestinationEditor.jsx": "06fa27ddea0db96d75759fa865b9903cbd0f4b3d1930a47f307d93e6e0685365",
+    "src/components/Editorial.module.css": "31ffe8259b110706132b34f77e556166d59e733456bd4e3a427d01c2517ede84",
+    "src/components/EditorialAuth.jsx": "24a362984be39a5529149de626ee9804783e2e4dcae9e9e8c1c776863550a3f8",
+    "src/components/EditorialForm.jsx": "7314f1909023c57ca1f46bc1d6ddbbf412428c15b19c42bd2b834c432a80dda4",
+    "src/components/EditorialStudio.jsx": "fd49eb20214407dc1f3568b0a0715d0a04d9ba11be0a9eec284ef5bc555a099d",
+    "src/components/Journey.jsx": "1b336e1368972e34ba203a1487965520a4c50d32678867f4c029f4a10defc1c9",
+    "src/components/Journey.module.css": "5921fbea653ad5ebd6abc1cf92258c3ed3c244305f0c933ab8db4de1767ad61a",
+    "src/components/LanguageSwitcher.jsx": "ebe40138014e45a4da05b810659f8bef1b71b1d2d889056cb9dac8b206f7cde7",
+    "src/components/RevisionComparison.jsx": "5e1d8d7f3f0849ce8769476c316f43f84c1470868bf5f832058ea7c9d16d337b",
+    "src/components/Shell.module.css": "92c8b68c8f4512ca421befe73d3240e7fab3c486041f08867f1dfd727e20fe93",
+    "src/components/TranslationEditor.jsx": "55d75b866166bb2f0710ec9c3d9d894a2f047c4fc0bc557a23eb137451f21d1f",
+    "src/i18n/admin.js": "796a4c7c3fe7bb8fbb09c581cff3f7a5be62c38984f0cc3e20d6c3668c291419",
+    "src/i18n/copy.js": "13632b99c117c4932ccf09ecef4bf5d38a86edf6d3ea4f70ba3c13faeabb1ae2",
+    "src/i18n/destinations.js": "94226a78146393944094ab6048789505ea40ec8e44d11feee81c6803370bb2e1",
+    "src/i18n/editorial.js": "f70874f0e3d8de3d444ead22088671a9e11dbc7e12407795e11dac16596746b4",
+    "src/lib/release-label.cjs": "1a3fb08e24a572b17e9588e0bd6c30da1d9199f4ebc0246d0a146351b6ebe7d0",
+    "src/lib/translation-state.js": "0685a14c1a2d1adc31268f7076b356ac19f76190cb218d063f9db95cf34b221c",
+    "src/proxy.js": "f0fb70e29595fc6b2dbc9695087b5dba71555118aa798050dbcc5950de424e5b",
+    "src/server/administration.js": "a1ea7873ddb5015f5ccbe0be9558e8bd72ed64add454ac8430a8cc2674f69315",
+    "src/server/auth-config.js": "977156e747857cc12577d5145f3881d600b4aeeef34959a8dcb21faf1bcfe5ee",
+    "src/server/auth.js": "f1ee930354e56d590c3191e535e50f60115f58bc25e9816d00651d769272ee49",
+    "src/server/corrections.js": "3283b2e3388e82a9f66573e4f03fe93e630e600ee9540bb85885f938dfa4c457",
+    "src/server/db.js": "4da9b1d5ba3a09b4ef25ba2d802ff16e20bda2bd047a267a700aa5210dc25332",
+    "src/server/destinations.js": "115effd86bd7496c53d50a5e744064d74abcdb5ceefff943cfabd2d54fe14546",
+    "src/server/editorial-http.js": "1d09db2ad21c57565b3348b1f1b130e428080dbab7b99dbb0389f8ff90fb40bc",
+    "src/server/editorial-service.js": "a8c11bd88b7d2adc0a4689e07499f2484002b266271af3566096fa875baae68e",
+    "src/server/editorial-validation.js": "822f0aeea6f65f2de04cc00bc474fb7b80bd65ca46d7b4bad683c57c977cdc35",
+    "src/server/local-config.js": "a7a1fc930d13e3efd5ee66d29aed132f2e1d9793e4dd629bc108e71c2572f317",
+    "src/server/local-demo-auth.js": "3e4aea305f699d0ca9f98276e08d7ebe42c0dce3c5a99b5418a20c2e506d4a96",
+    "src/server/repository.js": "a5388248df3d20d5b9dcec1364606a0f77d137ff76c818610fc9c8cea131b18b",
+    "src/server/translation-service.js": "e74db4e1768453bc13cc84250a96d58c149eb316457919dce91bba017aab4325",
+    "src/styles/fonts.css": "8e590590e9caac34dc439732f046ca3c4420985588df3c5222c13155c2d570d2",
+    "src/styles/globals.css": "43b392af3431052b2a909989c933e919dd9c10080f6ab0186ee2992df6c51f7c",
+    "tests/editorial.test.js": "6d52629c5188d275c5ecd9852811b00b527eb134fff2d67bb627f8b58f012cd9"
+  },
+  "sourceFingerprint": "a93cd106f74c371cf8b4c62da29b35e24328e9525fa83aec81f27bb25e74e18e",
+  "screenshots": {
+    "create-en-desktop.jpg": "eb3f183b03615fee344446f5c36560a2a4eac4d85ae8b0531d264e35e0fd3b90",
+    "create-en-mobile.jpg": "b8ca698f252b05a32cce804a0855f9268388f678cdef8d4fe0259c6f1721915f",
+    "create-he-desktop.jpg": "04985034830423c907d8d6fbcc31e54f952a6cb7df0c976e699179dbe25ce58f",
+    "create-he-mobile.jpg": "c26486c17b33780cde8db4fdade247fc6bdfbe5d6cdb1e74feb5183d93b02023"
+  },
+  "indexHash": "9e1d87b329854b2ac6a457e3a3b4a897005284af3b92299dc183b6747520718f",
+  "documentChecks": {
+    "utf8": "passed",
+    "relativeLinks": "passed",
+    "whitespace": "passed",
+    "manifestFiles": 115,
+    "index": "unchanged"
+  }
+}

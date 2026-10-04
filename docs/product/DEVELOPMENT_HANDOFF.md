@@ -1,8 +1,16 @@
 # CeliTrip — Development Handoff
 
-**Updated:** 2026-10-01 · **Status:** Accepted Milestone 1 checkpoint on remote main; v0.2.0 GitHub prerelease prepared, publication unconfirmed
+**Updated:** 2026-10-04 · **Status:** 0.3.0 Unreleased development checkpoint prepared. Corrected destination workflow accepted; broader acceptance remains separate. Milestone 1 remains historically published as prerelease v0.2.0.
 
 ## 1. Current State
+
+The owner authorized expansion into a full local administration workspace. The default authenticated page is **http://127.0.0.1:3000/en/editor**: scoped dashboard, draft destination/category management, branch details/evidence/translations/review/history, source registry, private correction assignment, team access, consumed localized display settings and audit activity. Desktop sidebar and mobile drawer support all four interface languages. The existing owner-demo account has the explicitly authorized, audited administrator grant in addition to its preserved editorial grants; its password, authenticator and narrow password-only exception were not changed. See the [administration walkthrough](../development/LOCAL_DEVELOPMENT.md#administration-workspace-walkthrough) and [new validation evidence](../technical/ADMINISTRATION_VALIDATION.md).
+
+The owner authorized the grouped **0.3.0 Unreleased** development checkpoint. The verified **0.2.0 published prerelease** remains preserved in release history with its immutable tag target. Destination drafts do not authorize launch coverage; public discovery remains the Rome milestone. Real publication, real reviewer appointments, translation/medical approval, proposed review intervals and public-launch readiness remain gated. Acceptance is limited to the corrected destination workflow described below; broader administration acceptance is not inferred.
+
+Milestone 2 was subsequently authorized and implemented locally: authenticated editorial management, exact-revision review, synthetic local publication/withdrawal and private corrections. See [Milestone 2 validation](../technical/MILESTONE_2_VALIDATION.md) and section D below. Acceptance beyond the demonstrated corrected destination workflow remains pending; earlier prototype/Milestone 1 acceptance is not extended automatically to other capabilities.
+
+The owner requested an opt-in password-only walkthrough for `owner-demo@demo.invalid`. It is enabled only in ignored local configuration, requires the guarded fictional database and canonical loopback access, and preserves live sessions/scoped roles plus all enrolled MFA material. MFA stays mandatory by default and for every other account; no MFA verification is fabricated. See [setup and disabling instructions](../development/LOCAL_DEVELOPMENT.md#optional-password-only-owner-walkthrough). This is included in 0.3.0 Unreleased, without real reviewer/publication approval.
 
 The repository contains product discovery documents, the standalone [interactive design prototype](../design/CeliTrip-Design-Flow.html) with unchanged flows, and a working local milestone 1 application. The application uses Next.js/JavaScript, shared blue CSS Modules and isolated PostgreSQL for Rome → places → branch details → claim evidence in Hebrew, English, French and Russian. See [local setup](../development/LOCAL_DEVELOPMENT.md) and [application validation](../technical/MILESTONE_1_VALIDATION.md). The September handoff reports Figma foundations only; the live Figma state was not verified or changed. No deployment, production admin, or launch-ready content collection is established by this work.
 
@@ -12,13 +20,19 @@ The owner subsequently reviewed the running Milestone 1 application and said it 
 
 The owner subsequently approved the [issue #4 architecture](../technical/TECHNICAL_DISCOVERY.md) for local implementation and explicitly authorized milestone 1. Railway and other cloud services remain unprovisioned recommendations. [PRD v0.2](PRD.md), the proposed [trust rules](TRUST_RULES.md) and [information architecture](INFORMATION_ARCHITECTURE.md) remain the product inputs.
 
-The owner committed and pushed the grouped **0.2.0 Unreleased development checkpoint** to remote main at `a5764706afb08e93e350e8774ccf37b352c1e0f4`, covering the prototype, version tooling, documents and persisted Rome slice. Local and remote state were verified before prerelease preparation. The [checkpoint record](../development/CHECKPOINT_0.2.0.md) is historical; use the new [release-preparation commands](../releases/PUBLISH_v0.2.0.md) for the narrow follow-up. Version remains 0.2.0, publication status remains Unreleased, and release metadata identifies a prepared prerelease. The dated changelog records preparation, not confirmed publication. No v0.2.0 tag or release existed at inspection. Codex has not staged, committed, tagged, pushed or published these release-preparation changes; the owner performs those actions. Application data and the index are preserved. No deployment, PR, issue closure or Milestone 2 work is included; 0.1.0 was never released.
+The owner committed/pushed the grouped checkpoint at `a5764706afb08e93e350e8774ccf37b352c1e0f4`, then published [v0.2.0](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0) at **2026-10-01T12:32:09Z** as a **published prerelease, not a draft**. Its annotated tag targets `8d329a6d5a1dafa561772f0536e3c7811e1e2739`. Read-only GitHub/tag checks confirmed these facts. That publication follow-up kept version 0.2.0 and displayed Published prerelease. The new development checkpoint is 0.3.0 Unreleased; the 0.2.0 record is retained in `VERSION.json.release_history`. The [checkpoint](../development/CHECKPOINT_0.2.0.md) and [publication commands](../releases/PUBLISH_v0.2.0.md) are historical; do not rerun them or move the tag. Codex only recorded this publication locally, preserving the index and application data. Translation, medical/card wording, real evidence/content and launch readiness remain pending. That publication-recording follow-up included no deployment, PR, issue closure or Milestone 2 work; 0.1.0 was never released.
+
+### Destination administration follow-up — 2026-10-04
+
+Destination naming starts from one source language with identity-aware geographic lookup, protected manual names, provenance and stale-response checks. The owner narrowly approved simpler **basic geographic metadata** management: save an optional-note draft, preview, explicitly confirm publication with publisher scope, withdraw with a reason, or archive with a reason. Celiac subject/four formal language reviews are no longer prerequisites for geographic labels; old review records remain in history. Geography publication writes only a destination-name revision pointer, never substantive guidance/claims. Draft/published/archival states remain separate. Draft countries can contain internal draft cities. Back navigation preserves list context; saved creation shows a compact overview, and field/action errors appear where they are relevant.
+
+Substantive travel guidance, venue evidence, celiac cards and real-content launch gates remain unchanged. Israel and all pre-existing owner records were preserved. **DeepL setup is deferred by the owner**, with no credentials requested or service enabled. Geographic lookup and manual names remain available. See [current usability validation](../technical/GEOGRAPHY_USABILITY_VALIDATION.md), [earlier lookup evidence](../technical/DESTINATION_VALIDATION.md), and [walkthrough](../development/LOCAL_DEVELOPMENT.md#destination-names-and-publication). This work is grouped into 0.3.0 Unreleased. The owner subsequently reviewed the corrected destination-management experience and said it “looks good”: acceptance is recorded for that demonstrated local workflow only. It does not approve real content, human translations, medical/card wording, reviewer authority, public launch or production readiness. Other Milestone 2 acceptance remains separate. See [checkpoint and explicit manifest](../development/MILESTONE_2_CHECKPOINT.md) and [draft release notes](../releases/v0.3.0-draft.md).
 
 ## 2. Established Decisions Versus Proposals
 
 | Established project direction | Proposal / still open |
 | --- | --- |
-| Responsive mobile-first web application; approved local architecture and implemented Rome slice | Editorial, maps/cards, other persisted flows and cloud operations remain later milestones |
+| Responsive mobile-first web application; approved local architecture and implemented Rome slice | Local editorial workflow now implemented; maps/cards, other persisted flows and cloud operations remain later milestones |
 | Owner accepted blue prototype direction/flows and the demonstrated Milestone 1 implementation | Reviewed translations, medical/card wording, real evidence and launch content |
 | Hebrew, English, French, Russian at launch | Named language and card reviewers |
 | Claim-specific sources and freshness | Acceptance of proposed editorial review intervals |
@@ -35,7 +49,7 @@ The owner committed and pushed the grouped **0.2.0 Unreleased development checkp
 | [#3 Information architecture](https://github.com/OzAvrahami/CeliTrip/issues/3) | Connected journeys, 27-route prototype inventory and owner visual/interaction acceptance | Translation/content review, remaining discovery filters and production states |
 | [#4 Technical discovery](https://github.com/OzAvrahami/CeliTrip/issues/4) | Architecture documented, owner approved local implementation, milestone 1 implemented and validated | Remaining ordered milestones and publication/operational gates; issue remains unchanged |
 
-No issue was changed or closed. Owner acceptance covers the prototype direction/flows and the demonstrated local Milestone 1 implementation; editorial, medical/card and content approval remain pending.
+No issue was changed or closed. Owner acceptance covers the prototype direction/flows, demonstrated local Milestone 1 implementation and corrected destination-management workflow; acceptance beyond those demonstrations, medical/card and real content approvals remain separate.
 
 ## 4. Suggested Implementation Sequence
 
@@ -55,7 +69,7 @@ The [technical discovery](../technical/TECHNICAL_DISCOVERY.md) now recommends on
 * Reviewed cards that can be deliberately saved and used offline.
 * Operational simplicity, content exportability, and expected early usage.
 
-Provider facts and material costs were checked against official sources during discovery. No cloud service has been subscribed to or provisioned. The subsequent owner authorization covers local milestone 1 only.
+Provider facts and material costs were checked against official sources during discovery. No cloud service has been subscribed to or provisioned. The owner subsequently authorized local milestones 1 and 2; no cloud operations are authorized.
 
 ### C. First functional increment — a persisted Rome discovery journey
 
@@ -65,9 +79,13 @@ Direct entry, refresh, language switching and back/forward navigation preserve t
 
 Open **http://127.0.0.1:3000/en/destinations/italy/rome** while the preview is running. Follow Explore example places → Forno Demo → Sources & evidence; use Tavola Demo for chain scope. The [setup guide](../development/LOCAL_DEVELOPMENT.md) contains reproducible commands. Neither the prototype's two places nor the application's three fictional branches establish launch coverage. Real data requires the later publication gates and real-data migrations.
 
-### D. Map, cards, and editorial publishing
+### D. Editorial publishing — Milestone 2 local implementation
 
-Follow the technical plan's order: authenticated editorial revisions/publication/corrections, then hotel/hub/content relationships and map/list synchronization, then reviewed destination-language cards and offline saving. Each milestone has explicit acceptance criteria; publication uses actual reviews, never fixture approval records.
+**Implemented locally; owner acceptance pending.** Sign in → TOTP → create/edit fictional Rome branch → attach claim-specific evidence → exact subject/four-language review → private preview → publish locally → public page → withdraw. New revisions, return-for-changes cycles and concurrency checks prevent stale approval reuse. Anonymous corrections persist privately and require audited triage; they cannot change content or publish.
+
+[Milestone 2 validation](../technical/MILESTONE_2_VALIDATION.md) separates new PostgreSQL/HTTP/Chrome evidence from historical Milestone 1/prototype evidence. [Local setup](../development/LOCAL_DEVELOPMENT.md) documents secret generation, operator account creation, assigned roles/locales/scopes, recovery and session revocation. All identities/reviews in validation are explicitly synthetic and live in a disposable database. The owner database was migrated additively without reseeding or changing its existing six content revisions/four publication pointers.
+
+Current metadata is **0.3.0 Unreleased**, with the historical 0.2.0 published prerelease preserved. Acceptance beyond the demonstrated destination workflow, real reviewer authority, publication/conflict/translation policies, correction handling/retention and launch readiness remain pending. No proposed review intervals are activated. Hotels/hubs/maps, reviewed cards/offline and cloud operations remain later milestones.
 
 ### E. Launch preparation
 
@@ -95,4 +113,4 @@ The separate [milestone 1 report](../technical/MILESTONE_1_VALIDATION.md) record
 
 New hotels, hubs, outlets and evidence observations are labeled fictional. The original venue data is preserved as supplied and is not newly verified. All card wording and interface translations require human review before public use. No review date or approval has been invented. Editorial review intervals remain proposals.
 
-In the standalone prototype, saving, reporting, publication, editor access and loading/offline states remain simulations. The local application now has a persisted read backend and exercised loading/error recovery; authentication, editorial publishing/reporting, maps, cards and offline storage remain unimplemented. Remaining delivery gates include accepted trust/publication rules, reviewer ownership, source/authority rights, reviewed content and launch coverage, plus budget and operational ownership before hosting. No proposed editorial interval has been activated.
+In the standalone prototype, saving, reporting, publication, editor access and loading/offline states remain simulations. The local application now has authenticated editorial revisions, synthetic review/publication, withdrawal and private corrections in addition to the persisted Rome journey. Maps, cards and offline storage remain unimplemented. Remaining delivery gates include accepted trust/publication rules, reviewer ownership, source/authority rights, reviewed content and launch coverage, plus budget and operational ownership before hosting. No proposed editorial interval has been activated.

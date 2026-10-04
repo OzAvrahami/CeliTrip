@@ -4,9 +4,11 @@
 
 Read [VERSION.json](../../VERSION.json) for the authoritative product version and release status. Version management starts with **0.1.0, explicitly unreleased**, covering the current design prototype and product discovery work. Repository inspection found no existing product version file, changelog or local Git tags. This initializes a development baseline; it does not create or imply a previous release.
 
-The owner subsequently authorized **0.2.0 Unreleased** as the grouped development checkpoint after reviewing the running Milestone 1 application. This is the current development version; 0.1.0 remains an unreleased historical baseline. See [checkpoint scope and prepared commit commands](CHECKPOINT_0.2.0.md). A checkpoint commit does not change release status or imply a tag/publication.
+The owner subsequently authorized **0.2.0** as the grouped development checkpoint after reviewing the running Milestone 1 application, then published it as a **GitHub prerelease**. Its historical publication status is `released`, with channel `prerelease` and state `published`; this does not mean a stable release or production deployment. The earlier 0.1.0 remains an unreleased historical baseline. See the [historical checkpoint scope](CHECKPOINT_0.2.0.md).
 
-The owner has now committed/pushed that checkpoint at `a5764706afb08e93e350e8774ccf37b352c1e0f4` and authorized preparation of its GitHub prerelease. Follow the narrower [v0.2.0 publication instructions](../releases/PUBLISH_v0.2.0.md), not the historical checkpoint staging list.
+The checkpoint is `a5764706afb08e93e350e8774ccf37b352c1e0f4`; annotated tag `v0.2.0` points to release commit `8d329a6d5a1dafa561772f0536e3c7811e1e2739`. [GitHub publication](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0) was verified at **2026-10-01T12:32:09Z**, prerelease true and draft false. The [publication record](../releases/PUBLISH_v0.2.0.md) preserves the historical commands; do not rerun them to recreate or replace the release.
+
+**Current development checkpoint: 0.3.0 Unreleased**, authorized on 2026-10-04 for the grouped Milestone 2/admin/destination work. `VERSION.json.release_history` retains the verified 0.2.0 publication object, including its immutable tag target. The current checkpoint has no `release` object: no 0.3.0 tag, prepared GitHub release, publication date or publication URL is claimed. Historical releases never determine the current display label. The consistency checker validates the current metadata and each distinct published history entry. When opening a new authorized development cycle, move the completed release metadata into this history without changing its recorded facts. See [the current checkpoint](MILESTONE_2_CHECKPOINT.md).
 
 [CHANGELOG.md](../../CHANGELOG.md) records pending work under **Unreleased**. Document revision numbers, such as PRD v0.2, and the design studio's `DESIGN PROTOTYPE / 01` label have their own meanings. They must not set or trigger the product version.
 
@@ -49,6 +51,8 @@ Every completion report must include version impact, current and proposed versio
 ## Application version mirror
 
 The local application's footer reads `VERSION.json` directly. `package.json` and the root package entry in `package-lock.json` mirror that version for npm tooling; they are not independent authorities. When a product bump is authorized, update those mirrors along with the standalone badge and run `npm.cmd run version:check`. The read-only check verifies both the prototype badge and npm metadata against `VERSION.json`. Starting or building the application never bumps or releases the product.
+
+The application and prototype generator share `src/lib/release-label.cjs`: unreleased metadata displays **Unreleased**, and a released prerelease displays **Published prerelease**. Never reduce a prerelease to an unqualified stable/released label. The localized local-preview notice is independent of GitHub publication status. The consistency check also validates publication metadata, including tag, channel/state, target commit, UTC timestamp and release URL. Publication recording alone requires no npm version bump.
 
 After an authorized edit to `VERSION.json`, use npm's existing version tooling without Git/tag hooks to synchronize its mirrors (PowerShell):
 

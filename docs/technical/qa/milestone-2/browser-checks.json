@@ -1,0 +1,498 @@
+{
+  "date": "2026-10-01T15:14:13.016Z",
+  "primaryDatabase": "celitrip_editorial_test",
+  "finalPreviewDatabase": "celitrip_dev",
+  "observations": [
+    {
+      "check": "Password sign-in, mandatory TOTP enrollment and draft creation with claim-specific source",
+      "passed": true
+    },
+    {
+      "check": "Private preview desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome branch"
+      ],
+      "lang": "en",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/en/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Local preview · Not a travel recommendationEditorial studiov0.2.0 · Published prerelease",
+      "width": 1440
+    },
+    {
+      "check": "Published branch evidence, English desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources & evidence",
+        "Fictional Rome branch"
+      ],
+      "lang": "en",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/en/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Local preview · Not a travel recommendationEditorial studiov0.2.0 · Published prerelease",
+      "width": 1440
+    },
+    {
+      "check": "Published evidence Hebrew desktop RTL",
+      "alerts": [],
+      "dir": "rtl",
+      "headings": [
+        "מקורות וראיות",
+        "סניף בדיוני ברומא"
+      ],
+      "lang": "he",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/he/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "תצוגה מקומית · לא המלצה לטיולסטודיו עריכהv0.2.0 · Published prerelease",
+      "width": 1440
+    },
+    {
+      "check": "Published evidence French desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources et éléments probants",
+        "Établissement fictif à Rome"
+      ],
+      "lang": "fr",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/fr/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Aperçu local · Pas une recommandation de voyageStudio éditorialv0.2.0 · Published prerelease",
+      "width": 1440
+    },
+    {
+      "check": "Published evidence Russian desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Источники и сведения",
+        "Вымышленный филиал в Риме"
+      ],
+      "lang": "ru",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/ru/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Локальный просмотр · Не рекомендация для поездкиРедакционная студияv0.2.0 · Published prerelease",
+      "width": 1440
+    },
+    {
+      "check": "Published evidence Russian mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Источники и сведения",
+        "Вымышленный филиал в Риме"
+      ],
+      "lang": "ru",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/ru/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Локальный просмотр · Не рекомендация для поездкиРедакционная студияv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Published evidence French mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources et éléments probants",
+        "Établissement fictif à Rome"
+      ],
+      "lang": "fr",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/fr/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Aperçu local · Pas une recommandation de voyageStudio éditorialv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Published evidence Hebrew mobile RTL",
+      "alerts": [],
+      "dir": "rtl",
+      "headings": [
+        "מקורות וראיות",
+        "סניף בדיוני ברומא"
+      ],
+      "lang": "he",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/he/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "תצוגה מקומית · לא המלצה לטיולסטודיו עריכהv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Published evidence English mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources & evidence",
+        "Fictional Rome branch"
+      ],
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/en/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead/evidence",
+      "version": "Local preview · Not a travel recommendationEditorial studiov0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Mobile private correction triage and resolution",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Private corrections"
+      ],
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/en/editor/corrections",
+      "version": "Local preview · Not a travel recommendationEditorial studiov0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Two-tab stale edit rejected with conflict message; newer private revision retained",
+      "passed": true
+    },
+    {
+      "check": "Private new revision English mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome branch"
+      ],
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/en/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Local preview · Not a travel recommendationEditorial studiov0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private new revision Hebrew mobile RTL",
+      "alerts": [],
+      "dir": "rtl",
+      "headings": [
+        "סטודיו עריכה",
+        "סניף בדיוני ברומא",
+        "סניף בדיוני ברומא",
+        "סניף בדיוני ברומא"
+      ],
+      "lang": "he",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/he/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "תצוגה מקומית · לא המלצה לטיולסטודיו עריכהv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private new revision French mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Studio éditorial",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome"
+      ],
+      "lang": "fr",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/fr/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Aperçu local · Pas une recommandation de voyageStudio éditorialv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private new revision Russian mobile",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Редакционная студия",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме"
+      ],
+      "lang": "ru",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/ru/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Локальный просмотр · Не рекомендация для поездкиРедакционная студияv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private new revision Russian mobile (desktop resize not applied to this tab; retried separately)",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Редакционная студия",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме"
+      ],
+      "lang": "ru",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/ru/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Локальный просмотр · Не рекомендация для поездкиРедакционная студияv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private new revision French mobile (desktop resize not applied to this tab; retried separately)",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Studio éditorial",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome"
+      ],
+      "lang": "fr",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/fr/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "version": "Aperçu local · Pas une recommandation de voyageStudio éditorialv0.2.0 · Published prerelease",
+      "width": 390
+    },
+    {
+      "check": "Private editorial French desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Studio éditorial",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome",
+        "Établissement fictif à Rome"
+      ],
+      "lang": "fr",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/fr/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "width": 1440
+    },
+    {
+      "check": "Private editorial Russian desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Редакционная студия",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме",
+        "Вымышленный филиал в Риме"
+      ],
+      "lang": "ru",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/ru/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "width": 1440
+    },
+    {
+      "check": "Private editorial Hebrew desktop RTL",
+      "alerts": [],
+      "dir": "rtl",
+      "headings": [
+        "סטודיו עריכה",
+        "סניף בדיוני ברומא",
+        "סניף בדיוני ברומא",
+        "סניף בדיוני ברומא"
+      ],
+      "lang": "he",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/he/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "width": 1440
+    },
+    {
+      "check": "Private editorial English desktop",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome Editorial Demo",
+        "Fictional Rome branch"
+      ],
+      "lang": "en",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/en/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/preview",
+      "width": 1440
+    },
+    {
+      "check": "New draft text absent from public branch after save",
+      "passed": true
+    },
+    {
+      "check": "Withdrawal recorded; private revision retained",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Fictional Rome Editorial Demo",
+        "Review exact revision",
+        "Exact snapshot comparison"
+      ],
+      "lang": "en",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/en/editor/branches/demo-03480f0e-2b97-4989-bbdc-025315f9fead/review",
+      "width": 1440
+    },
+    {
+      "check": "Withdrawn public branch returns not-found",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "This page isn’t available"
+      ],
+      "lang": "en",
+      "scrollWidth": 1440,
+      "url": "http://127.0.0.1:3000/en/places/demo-03480f0e-2b97-4989-bbdc-025315f9fead",
+      "width": 1440
+    },
+    {
+      "check": "Milestone 1 English desktop filtered Rome journey",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources & evidence",
+        "Dedicated fryer",
+        "Accreditation history",
+        "Separate utensils"
+      ],
+      "lang": "en",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/en/places/forno-demo/evidence?category=bakery",
+      "width": 1440
+    },
+    {
+      "check": "Milestone 1 evidence language switch preserves branch and bakery filter he",
+      "alerts": [],
+      "dir": "rtl",
+      "headings": [
+        "מקורות וראיות",
+        "מטגנת ייעודית",
+        "היסטוריית הסמכה",
+        "כלים נפרדים"
+      ],
+      "lang": "he",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/he/places/forno-demo/evidence?category=bakery",
+      "width": 1440
+    },
+    {
+      "check": "Milestone 1 evidence language switch preserves branch and bakery filter fr",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sources et éléments probants",
+        "Friteuse dédiée",
+        "Historique d’accréditation",
+        "Ustensiles séparés"
+      ],
+      "lang": "fr",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/fr/places/forno-demo/evidence?category=bakery",
+      "width": 1440
+    },
+    {
+      "check": "Milestone 1 evidence language switch preserves branch and bakery filter ru",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Источники и сведения",
+        "Отдельная фритюрница",
+        "История аккредитации",
+        "Отдельная посуда"
+      ],
+      "lang": "ru",
+      "scrollWidth": 1425,
+      "url": "http://127.0.0.1:3000/ru/places/forno-demo/evidence?category=bakery",
+      "width": 1440
+    },
+    {
+      "check": "Milestone 1 Russian mobile empty filter state",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Места для знакомства",
+        "Подходящих мест нет"
+      ],
+      "lang": "ru",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/ru/destinations/italy/rome/places?q=no-such-fictional-place&category=bakery&dimension=",
+      "width": 390
+    },
+    {
+      "check": "Mobile back navigation restores filtered result",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Места для знакомства",
+        "Форно Демо · Филиал A"
+      ],
+      "lang": "ru",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:3000/ru/destinations/italy/rome/places?category=bakery",
+      "width": 390
+    },
+    {
+      "check": "Optimized build sign-in and TOTP completed",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Editorial studio",
+        "Rome branches",
+        "Review exact revision"
+      ],
+      "lang": "en",
+      "scrollWidth": 2737,
+      "url": "http://127.0.0.1:3000/en/editor",
+      "width": 2752
+    },
+    {
+      "check": "Back navigation after logout exposes no editorial data",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Authenticator verification"
+      ],
+      "lang": "en",
+      "scrollWidth": 2752,
+      "url": "http://127.0.0.1:3000/en/editor/mfa",
+      "width": 2752
+    },
+    {
+      "check": "Direct editorial entry after logout redirects to sign-in",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Sign in"
+      ],
+      "lang": "en",
+      "scrollWidth": 2752,
+      "url": "http://127.0.0.1:3000/en/editor/sign-in",
+      "width": 2752
+    },
+    {
+      "check": "Optimized owner preview loading state before Rome resolved",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Loading the journey…"
+      ],
+      "lang": "en",
+      "scrollWidth": 2752,
+      "url": "http://127.0.0.1:3000/en/destinations/italy/rome",
+      "width": 2752
+    },
+    {
+      "check": "Final optimized owner database: Rome ready",
+      "alerts": [],
+      "dir": "ltr",
+      "headings": [
+        "Rome.",
+        "Places to explore",
+        "Know what is behind each claim"
+      ],
+      "lang": "en",
+      "scrollWidth": 2752,
+      "url": "http://127.0.0.1:3000/en/destinations/italy/rome",
+      "width": 2752
+    },
+    {
+      "check": "Final owner sign-in keyboard Tab reaches password with visible outline",
+      "passed": true
+    }
+  ]
+}
