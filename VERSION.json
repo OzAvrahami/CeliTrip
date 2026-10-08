@@ -13,5 +13,12 @@
       "published_at": "2026-10-01T12:32:09Z",
       "url": "https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0"
     }
-  ]
+  ],
+  "release": {
+    "tag": "v0.3.0",
+    "channel": "prerelease",
+    "state": "prepared",
+    "prepared_on": "2026-10-04",
+    "checkpoint_commit": "c897a0bf4c0bd267104c073fe11dd8d672a79f8e"
+  }
 }

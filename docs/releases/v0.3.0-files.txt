@@ -1,0 +1,10 @@
+CHANGELOG.md
+VERSION.json
+docs/development/MILESTONE_2_CHECKPOINT.md
+docs/development/VERSIONING.md
+docs/product/DEVELOPMENT_HANDOFF.md
+docs/releases/PUBLISH_v0.3.0.md
+docs/releases/v0.3.0-draft.md
+docs/releases/v0.3.0-files.txt
+docs/releases/v0.3.0.md
+docs/technical/RELEASE_0.3.0_VALIDATION.md

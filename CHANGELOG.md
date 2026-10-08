@@ -4,11 +4,17 @@ Product version and release status are maintained in [VERSION.json](VERSION.json
 
 ## [Unreleased]
 
+Reserved for subsequent work; the agreed 0.3.0 scope is recorded below.
+
+## [0.3.0] - 2026-10-04
+
+**Preparation date only.** Prepared for a GitHub prerelease from checkpoint `c897a0bf4c0bd267104c073fe11dd8d672a79f8e`; publication has not been verified. Authoritative status remains **Unreleased**. See [release notes](docs/releases/v0.3.0.md) and [owner publication instructions](docs/releases/PUBLISH_v0.3.0.md).
+
 * Preserved the verified v0.2.0 publication in authoritative release history and the historical documentation. Its published tag/release remain immutable. Current development metadata and synchronized displays now say **0.3.0 Unreleased**; no 0.3.0 release or deployment has occurred.
 
-### 0.3.0 development checkpoint — Unreleased
+### Grouped Milestone 2 scope
 
-* The owner reviewed the corrected destination-management experience and said it “looks good.” Acceptance covers that demonstrated local workflow only. It does not approve real content, translations, medical/card wording, reviewer authority, production readiness or every other Milestone 2 flow. The owner authorized grouping completed local capabilities into this checkpoint; broader acceptance remains separate. See [draft notes](docs/releases/v0.3.0-draft.md).
+* The owner reviewed the corrected destination-management experience and said it “looks good.” Acceptance covers that demonstrated local workflow only. It does not approve real content, translations, medical/card wording, reviewer authority, production readiness or every other Milestone 2 flow. The owner authorized grouping completed local capabilities into this checkpoint; broader acceptance remains separate. See [release notes](docs/releases/v0.3.0.md).
 
 * Corrected destination action validation: legacy Submit no longer requires a distant general reason. Creation/saving accept optional private revision notes; withdrawal/archive request their own required reason. Added field-specific/action-local errors, focus, pending/success states, clear back navigation with list context, saved-draft overview and draft-country/city organization. Names and provenance are compact, with preview and contextual publication actions instead of disabled review buttons. **Local API compatibility:** geographic publication now requires `confirmGeography: true`; it cannot publish claims or guidance. No existing owner destination is automatically published.
 
