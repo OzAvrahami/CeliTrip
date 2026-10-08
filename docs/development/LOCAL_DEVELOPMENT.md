@@ -1,6 +1,6 @@
 # CeliTrip local development
 
-**Current development checkpoint: 0.3.0 Unreleased.** The corrected destination workflow is owner-accepted; other acceptance and real-content/translation/medical/reviewer/production gates remain separate. Historical validation below retains its captured versions. See [checkpoint scope and commands](MILESTONE_2_CHECKPOINT.md).
+**Current version: 0.3.0 Published prerelease (2026-10-08).** The corrected destination workflow is owner-accepted; other acceptance and real-content/translation/medical/reviewer/production gates remain separate. Historical validation below retains its captured versions. See [completed publication](../releases/PUBLISH_v0.3.0.md) and [historical checkpoint scope](MILESTONE_2_CHECKPOINT.md); do not rerun release creation commands.
 
 Milestones 1 and 2 provide the local Rome journey and authenticated fictional editorial workflow backed by PostgreSQL. The standalone [approved prototype](../design/CeliTrip-Design-Flow.html) remains the design reference. Read the [implementation validation](../technical/MILESTONE_1_VALIDATION.md) for actual checks and limitations.
 
@@ -68,7 +68,7 @@ Search is a bounded literal substring across the four fixture translations, with
 
 Real content remains blocked and requires accepted policies/reviewer assignments, real-data migrations and hosting controls. The local editorial workflow only permits fictional records and synthetic reviews. Hotels/hubs, maps, cards, offline storage and cloud operations remain later milestones. Trust/review intervals remain proposals. No real reviews or launch readiness are implied by a local publication pointer.
 
-`VERSION.json` is authoritative at **0.3.0 Unreleased**. The historical [v0.2.0 GitHub prerelease](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0), published 2026-10-01T12:32:09Z, remains in `release_history` with its immutable tag target. Package/lockfile are checked mirrors; application and prototype displays now read Unreleased. This remains a fictional local preview, not a deployed production application. Follow [VERSIONING.md](VERSIONING.md) and the [current checkpoint](MILESTONE_2_CHECKPOINT.md). The [0.2.0 checkpoint](CHECKPOINT_0.2.0.md) and [publication record](../releases/PUBLISH_v0.2.0.md) are historical; do not rerun their release commands. Version 0.1.0 was never released.
+`VERSION.json` is authoritative at **0.3.0 Published prerelease**, verified published 2026-10-08T18:32:14Z, non-draft and not Latest. The historical [v0.2.0 GitHub prerelease](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.2.0), published 2026-10-01T12:32:09Z, remains in `release_history` with its immutable tag target. Package/lockfile are checked mirrors; application and prototype displays now read **v0.3.0 · Published prerelease**. This remains a fictional local preview, not a deployed production application. Follow [VERSIONING.md](VERSIONING.md) and the [historical checkpoint](MILESTONE_2_CHECKPOINT.md). The [0.2.0 checkpoint](CHECKPOINT_0.2.0.md) and [publication record](../releases/PUBLISH_v0.2.0.md) are historical; do not rerun their release commands. Version 0.1.0 was never released.
 
 ## Milestone 2: existing checkout setup
 

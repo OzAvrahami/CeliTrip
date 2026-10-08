@@ -1,6 +1,6 @@
 {
   "version": "0.3.0",
-  "status": "unreleased",
+  "status": "released",
   "release_history": [
     {
       "version": "0.2.0",
@@ -17,8 +17,11 @@
   "release": {
     "tag": "v0.3.0",
     "channel": "prerelease",
-    "state": "prepared",
+    "state": "published",
     "prepared_on": "2026-10-04",
-    "checkpoint_commit": "c897a0bf4c0bd267104c073fe11dd8d672a79f8e"
+    "checkpoint_commit": "c897a0bf4c0bd267104c073fe11dd8d672a79f8e",
+    "tag_commit": "6c1cb564f8cfd3ec8a395582f3581d7a800bace7",
+    "published_at": "2026-10-08T18:32:14Z",
+    "url": "https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.3.0"
   }
 }

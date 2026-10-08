@@ -1,6 +1,6 @@
 # CeliTrip 0.3.0 development checkpoint — historical preparation
 
-**Completed by the owner:** checkpoint `c897a0bf4c0bd267104c073fe11dd8d672a79f8e` is verified on local/remote main. The scope, inspection and commands below describe the earlier preparation snapshot; do not rerun them. Use the separate [release-preparation instructions and manifest](../releases/PUBLISH_v0.3.0.md) for publication. Current metadata now includes a prepared prerelease object and remains Unreleased.
+**Completed by the owner:** checkpoint `c897a0bf4c0bd267104c073fe11dd8d672a79f8e` was verified on local/remote main during preparation. The scope, inspection and commands below describe the earlier preparation snapshot; do not rerun them. Publication subsequently completed on 2026-10-08; current metadata is **0.3.0 Published prerelease**. See the [completed publication record](../releases/PUBLISH_v0.3.0.md). Everything below describes the historical checkpoint, not current publication status.
 
 **2026-10-04 — 0.3.0 Unreleased.** The owner authorized the grouped minor checkpoint and accepted the demonstrated corrected destination-management experience (“looks good”). This is not broader approval of real content, translations, medical/card wording, reviewer authority, production readiness or every administration workflow.
 

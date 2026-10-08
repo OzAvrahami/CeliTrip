@@ -4,13 +4,13 @@ Product version and release status are maintained in [VERSION.json](VERSION.json
 
 ## [Unreleased]
 
-Reserved for subsequent work; the agreed 0.3.0 scope is recorded below.
+* Recorded verified v0.3.0 GitHub prerelease publication and synchronized application/prototype labels to **v0.3.0 · Published prerelease**. This follow-up keeps version 0.3.0, preserves the tagged preparation snapshot and v0.2.0 history, and adds no product capability or deployment.
 
-## [0.3.0] - 2026-10-04
+## [0.3.0] - 2026-10-08
 
-**Preparation date only.** Prepared for a GitHub prerelease from checkpoint `c897a0bf4c0bd267104c073fe11dd8d672a79f8e`; publication has not been verified. Authoritative status remains **Unreleased**. See [release notes](docs/releases/v0.3.0.md) and [owner publication instructions](docs/releases/PUBLISH_v0.3.0.md).
+**Published GitHub prerelease**, not draft and not Latest: [v0.3.0](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.3.0), published **2026-10-08T18:32:14Z**. Annotated tag object `38ec171b9c9cf8977c2484491fad0e83659ddc25` peels to commit `6c1cb564f8cfd3ec8a395582f3581d7a800bace7`. Read-only remote-ref and GraphQL checks confirmed the immutable target and publication; the release's moving `target_commitish` value is not used as target evidence.
 
-* Preserved the verified v0.2.0 publication in authoritative release history and the historical documentation. Its published tag/release remain immutable. Current development metadata and synchronized displays now say **0.3.0 Unreleased**; no 0.3.0 release or deployment has occurred.
+Preparation occurred on **2026-10-04**, following checkpoint `c897a0bf4c0bd267104c073fe11dd8d672a79f8e`. The tagged preparation snapshot retains its original Unreleased/prepared metadata. This separate recording follow-up keeps version 0.3.0, sets current metadata to released/published with channel prerelease, and preserves v0.2.0 history. See [release notes](docs/releases/v0.3.0.md), [publication record](docs/releases/PUBLISH_v0.3.0.md) and [recording validation](docs/technical/PUBLICATION_0.3.0_VALIDATION.md). No deployment or broader owner acceptance is implied.
 
 ### Grouped Milestone 2 scope
 

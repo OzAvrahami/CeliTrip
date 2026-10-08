@@ -1,0 +1,10 @@
+CHANGELOG.md
+VERSION.json
+docs/design/CeliTrip-Design-Flow.html
+docs/development/LOCAL_DEVELOPMENT.md
+docs/development/MILESTONE_2_CHECKPOINT.md
+docs/development/VERSIONING.md
+docs/product/DEVELOPMENT_HANDOFF.md
+docs/releases/PUBLISH_v0.3.0.md
+docs/releases/v0.3.0-publication-files.txt
+docs/technical/PUBLICATION_0.3.0_VALIDATION.md

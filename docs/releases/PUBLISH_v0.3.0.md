@@ -1,4 +1,70 @@
-# CeliTrip v0.3.0 prerelease publication preparation
+# CeliTrip v0.3.0 prerelease publication record
+
+## Completed publication — do not rerun creation commands
+
+The owner published [v0.3.0](https://github.com/OzAvrahami/CeliTrip/releases/tag/v0.3.0) at **2026-10-08T18:32:14Z**. Fresh read-only GraphQL verification confirms `isDraft: false`, `isPrerelease: true`, `isLatest: false`, the timestamp/URL and tag commit. Remote refs independently confirm annotated object **38ec171b9c9cf8977c2484491fad0e83659ddc25** and peeled commit **6c1cb564f8cfd3ec8a395582f3581d7a800bace7**. The release's `target_commitish: main` is not immutable target evidence.
+
+This recording follow-up keeps version **0.3.0**, sets root status `released` and current release state `published`, retains channel `prerelease`, preparation date/checkpoint and unchanged v0.2.0 history, and records the actual tag commit/time/URL. Application/prototype labels read **v0.3.0 · Published prerelease**. The tag and GitHub release were not edited; the tagged preparation snapshot remains intact. Codex performed no Git mutations or deployment.
+
+Only the [recording manifest](v0.3.0-publication-files.txt) applies to this follow-up; neither earlier checkpoint/preparation manifest should be staged again. See [recording validation](../technical/PUBLICATION_0.3.0_VALIDATION.md). DeepL remains deferred, general machine translation is not operational, and owner acceptance remains limited to the demonstrated corrected destination workflow.
+
+## Recording-only owner commands
+
+Prepared, not executed by Codex. Use one PowerShell session; review at each prompt. A failed guard stops without resetting owner work. These commands create only a follow-up commit on main; they never move the published tag or edit the release.
+
+```powershell
+Set-Location D:\code\CeliTrip
+$ErrorActionPreference = 'Stop'
+function Invoke-RecordingGit {
+    & git -c safe.directory=D:/code/CeliTrip --no-optional-locks @args
+    if ($LASTEXITCODE -ne 0) { throw "Git failed: $args. Stop and inspect." }
+}
+$expectedHead = '6c1cb564f8cfd3ec8a395582f3581d7a800bace7'
+$manifest = 'docs/releases/v0.3.0-publication-files.txt'
+$files = @(Get-Content -Encoding UTF8 $manifest)
+
+# 1. Read-only preflight: stop if newer owner work changes this scope.
+if ((Invoke-RecordingGit branch --show-current) -ne 'main') { throw 'Expected main.' }
+if ((Invoke-RecordingGit rev-parse HEAD) -ne $expectedHead) { throw 'HEAD changed; review newer work.' }
+if ((Invoke-RecordingGit remote get-url origin) -ne 'https://github.com/OzAvrahami/CeliTrip.git' -or
+    (Invoke-RecordingGit remote get-url --push origin) -ne 'https://github.com/OzAvrahami/CeliTrip.git') { throw 'Unexpected origin.' }
+$remoteMain = @(Invoke-RecordingGit ls-remote origin refs/heads/main)
+if ($remoteMain.Count -ne 1 -or ($remoteMain[0] -split '\s+')[0] -ne $expectedHead) { throw 'Remote main changed.' }
+if (@(Invoke-RecordingGit diff --cached --name-only).Count) { throw 'Preserve existing staged work; stop.' }
+$changed = @((Invoke-RecordingGit diff --name-only); (Invoke-RecordingGit ls-files --others --exclude-standard))
+if (($changed | Sort-Object) -join "`n" -cne (($files | Sort-Object) -join "`n")) { throw 'Working scope differs from manifest.' }
+Invoke-RecordingGit -c core.autocrlf=false diff --check
+npm.cmd run version:check
+if ($LASTEXITCODE -ne 0) { throw 'Version check failed.' }
+$files
+
+# 2. Owner stages only the recording manifest, then reviews.
+if ((Read-Host 'Type STAGE to stage this recording-only scope') -cne 'STAGE') { throw 'Stopped.' }
+Invoke-RecordingGit --literal-pathspecs add "--pathspec-from-file=$manifest"
+$staged = @(Invoke-RecordingGit diff --cached --name-only)
+if (($staged | Sort-Object) -join "`n" -cne (($files | Sort-Object) -join "`n")) { throw 'Staged scope mismatch.' }
+Invoke-RecordingGit -c core.autocrlf=false diff --cached --check
+Invoke-RecordingGit diff --cached --stat
+Invoke-RecordingGit --no-pager diff --cached
+
+# 3. Owner commits after review and pushes main normally; no tags/releases.
+if ((Read-Host 'Review the diff. Type COMMIT to commit and push') -cne 'COMMIT') { throw 'Stopped before commit.' }
+if ((Invoke-RecordingGit rev-parse HEAD) -ne $expectedHead) { throw 'HEAD changed during review.' }
+if (@(Invoke-RecordingGit diff --name-only).Count -or @(Invoke-RecordingGit ls-files --others --exclude-standard).Count) { throw 'Unstaged changes appeared; review again.' }
+$staged = @(Invoke-RecordingGit diff --cached --name-only)
+if (($staged | Sort-Object) -join "`n" -cne (($files | Sort-Object) -join "`n")) { throw 'Staged scope changed.' }
+Invoke-RecordingGit commit -m 'docs: record verified v0.3.0 prerelease publication'
+$recordingCommit = (Invoke-RecordingGit rev-parse HEAD).Trim()
+Invoke-RecordingGit push origin main
+$remoteMain = @(Invoke-RecordingGit ls-remote origin refs/heads/main)
+if ($remoteMain.Count -ne 1 -or ($remoteMain[0] -split '\s+')[0] -ne $recordingCommit) { throw 'Remote verification failed.' }
+Write-Host "Recording commit verified on remote main: $recordingCommit"
+```
+
+## Historical preparation record — 2026-10-04
+
+Everything below, including the owner-operated sequence and after-publication instructions, is the preserved preparation record. It does not describe current non-publication. **Do not rerun its mutation commands or replace/move any existing tag or release.**
+
 
 **Prepared 2026-10-04; publication not yet verified.** Product version remains **0.3.0 Unreleased**, with current release state `prepared` and channel `prerelease`. The dated changelog section is preparation, not a publication announcement. The owner alone runs the mutations below.
 
